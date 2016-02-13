@@ -1,0 +1,967 @@
+﻿[2016.02.13-14.53.45:564][  0]Log file open, 02/13/16 15:53:45
+[2016.02.13-14.53.45:564][  0]LogInit:Display: Running engine for game: Runner
+[2016.02.13-14.53.45:564][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-14.53.45:564][  0]LogInit:Display: RandInit(138530203) SRandInit(138530204).
+[2016.02.13-14.53.45:564][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.13-14.53.45:564][  0]LogStats: Stats thread started at 0.075380
+[2016.02.13-14.53.45:564][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-14.53.45:564][  0]LogInit: API Version: 2758231
+[2016.02.13-14.53.45:564][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.13-14.53.45:564][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.13-14.53.45:564][  0]LogInit: Build Configuration: Development
+[2016.02.13-14.53.45:564][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.13-14.53.45:564][  0]LogInit: Command line:  
+[2016.02.13-14.53.45:564][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.13-14.53.45:564][  0]LogInit: Rocket: 1
+[2016.02.13-14.53.45:571][  0]LogInit: Using libcurl 7.41.0
+[2016.02.13-14.53.45:571][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.13-14.53.45:571][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.13-14.53.45:571][  0]LogInit:  - other features:
+[2016.02.13-14.53.45:571][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.13-14.53.45:571][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.13-14.53.45:571][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.13-14.53.45:571][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.13-14.53.45:571][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.13-14.53.45:571][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.13-14.53.45:571][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.13-14.53.45:571][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.13-14.53.45:571][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.13-14.53.45:571][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.13-14.53.45:578][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.13-14.53.45:585][  0]LogInit: Object subsystem initialized
+[2016.02.13-14.53.45:586][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-14.53.45:586][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.13-14.53.45:595][  0]LogInit: Computer: JOHANS_MONSTER
+[2016.02.13-14.53.45:595][  0]LogInit: User: Johan
+[2016.02.13-14.53.45:595][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.13-14.53.45:595][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2016.02.13-14.53.45:595][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.02.13-14.53.45:595][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.13-14.53.45:595][  0]LogMemory: Process Physical Memory: 56.15 MB used, 56.15 MB peak
+[2016.02.13-14.53.45:595][  0]LogMemory: Process Virtual Memory: 56.71 MB used, 56.71 MB peak
+[2016.02.13-14.53.45:595][  0]LogMemory: Physical Memory: 3090.11 MB used, 16337.33 MB total
+[2016.02.13-14.53.45:595][  0]LogMemory: Virtual Memory: 382.84 MB used, 134217728.00 MB total
+[2016.02.13-14.53.45:630][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.13-14.53.46:025][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 SE (Feature Level 11_0)
+[2016.02.13-14.53.46:025][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2016.02.13-14.53.46:026][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.13-14.53.46:026][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2016.02.13-14.53.46:026][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.13-14.53.46:029][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.13-14.53.46:029][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2016.02.13-14.53.46:041][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.13-14.53.46:057][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Johan/Documents/GitHub/Runner/Intermediate/Shaders/WorkingDirectory/3128/).
+[2016.02.13-14.53.46:058][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Johan/AppData/Local/Temp/UnrealShaderWorkingDir/23A609DE46C7137E37963FBDFD553422/'.
+[2016.02.13-14.53.46:058][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.13-14.53.46:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.13-14.53.46:810][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.13-14.53.46:815][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.13-14.53.46:820][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.13-14.53.46:824][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.13-14.53.46:827][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.13-14.53.46:830][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.13-14.53.46:833][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.13-14.53.46:836][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.13-14.53.46:839][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.13-14.53.46:842][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.13-14.53.46:848][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.13-14.53.46:848][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.13-14.53.46:848][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.13-14.53.46:866][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.13-14.53.46:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.13-14.53.46:871][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.13-14.53.46:873][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.13-14.53.46:873][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.13-14.53.46:961][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.13-14.53.47:004][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.13-14.53.47:063][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.13-14.53.47:075][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.13-14.53.47:256][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-14.53.47:259][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.13-14.53.47:362][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.13-14.53.47:363][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.13-14.53.47:565][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.13-14.53.48:264][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.13-14.53.48:362][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.02.13-14.53.48:523][  0]SourceControl: Info Source control is disabled
+[2016.02.13-14.53.48:524][  0]SourceControl: Info Source control is disabled
+[2016.02.13-14.53.48:537][  0]SourceControl: Info Source control is disabled
+[2016.02.13-14.53.48:551][  0]SourceControl: Info Source control is disabled
+[2016.02.13-14.53.48:810][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.13-14.53.48:810][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.13-14.53.48:865][  0]LogEngine: Initializing Engine...
+[2016.02.13-14.53.48:867][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-14.53.48:867][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.13-14.53.48:977][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.13-14.53.48:982][  0]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-14.53.49:016][  0]LogInit: FAudioDevice initialized.
+[2016.02.13-14.53.49:036][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-14.53.49:042][  0]LogInit: Texture streaming: Enabled
+[2016.02.13-14.53.49:048][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.13-14.53.49:048][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-14.53.49:048][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e13f53c54a08433fc09043aa962b451a|75ba5683578c43329a0522a4b145a097|e6dac55f-4bf9-412a-b229-53d1a5ef9356
+[2016.02.13-14.53.49:048][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.13-14.53.49:057][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-14.53.49:057][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-14.53.49:076][  0]LogInit: Transaction tracking system initialized
+[2016.02.13-14.53.49:115][  0]BlueprintLog: New page: Editor Load
+[2016.02.13-14.53.49:205][  0]LocalizationService: Info Localization service is disabled
+[2016.02.13-14.53.49:290][  0]LogConsoleResponse:Display: 
+[2016.02.13-14.53.49:399][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.13-14.53.49:464][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/' took 0.01s
+[2016.02.13-14.53.49:464][  0]SourceControl: Info Source control is disabled
+[2016.02.13-14.53.49:464][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.13-14.53.49:464][  0]LightingResults: New page: Lighting Build
+[2016.02.13-14.53.49:468][  0]MapCheck: New page: Map Check
+[2016.02.13-14.53.49:468][  0]LightingResults: New page: Lighting Build
+[2016.02.13-14.53.49:478][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018451B77B00
+[2016.02.13-14.53.50:059][  0]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-14.53.50:067][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.13-14.53.50:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.13-14.53.50:138][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.579ms to complete.
+[2016.02.13-14.53.50:138][  0]LogFileHelpers: Loading map 'RunnerMap' took 0.674
+[2016.02.13-14.53.50:233][  0]LogCollectionManager: Loaded 0 collections in 0.002489 seconds
+[2016.02.13-14.53.50:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Saved/Collections/' took 0.01s
+[2016.02.13-14.53.50:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Developers/Johan/Collections/' took 0.01s
+[2016.02.13-14.53.50:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Collections/' took 0.01s
+[2016.02.13-14.53.50:272][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.13-14.53.50:280][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 1893 classes and 338 folders.
+[2016.02.13-14.53.50:287][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.13-14.53.50:335][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.13-14.53.50:340][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.13-14.53.50:360][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.13-14.53.50:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.13-14.53.50:387][  0]LogLoad: Full Startup: 5.24 seconds (BP compile: 0.14 seconds)
+[2016.02.13-14.53.50:399][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-14.53.50:454][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.13-14.53.50:610][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.02.13-14.53.50:897][  6]LogAssetRegistry: Asset discovery search completed in 2.5462 seconds
+[2016.02.13-14.53.50:897][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.13-14.53.50:897][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
+[2016.02.13-14.54.13:465][651]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.13-14.54.28:310][736]Cmd: TRANSACTION UNDO
+[2016.02.13-14.54.28:310][736]LogEditorTransaction: Undo Rotate Actors
+[2016.02.13-14.54.38:598][577]Cmd: TRANSACTION UNDO
+[2016.02.13-14.54.38:598][577]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2016.02.13-14.54.47:584][230]Cmd: TRANSACTION UNDO
+[2016.02.13-14.54.47:584][230]LogEditorTransaction: Undo Edit Sky Distance Threshold
+[2016.02.13-14.55.39:405][506]Cmd: TRANSACTION UNDO
+[2016.02.13-14.55.39:405][506]LogEditorTransaction: Undo Edit Density Multiplier
+[2016.02.13-14.56.38:261][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.38:261][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-14.56.38:262][749]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 4:56:38 PM)
+[2016.02.13-14.56.38:262][749]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-14.56.38:285][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023402s)
+[2016.02.13-14.56.38:286][749]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-14.56.38:287][749]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2016.02.13-14.56.38:287][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.025121s)
+[2016.02.13-14.56.38:321][749]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-14.56.38:327][749]LogInit: FAudioDevice initialized.
+[2016.02.13-14.56.38:375][749]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.56.38:375][749]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.56.38:375][749]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-14.56.38:375][749]LogWorld: Game class is 'GameMode'
+[2016.02.13-14.56.38:379][749]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-15.56.38
+[2016.02.13-14.56.38:379][749]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.56.38:380][749]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.56.38:380][749]LogWorld: Bringing up level for play took: 0.003176
+[2016.02.13-14.56.38:380][749]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-14.56.38:381][749]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.222
+[2016.02.13-14.56.38:381][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.39:601][850]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.39:643][850]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.39:659][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001843603CCC0
+[2016.02.13-14.56.49:067][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.49:067][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-14.56.49:067][950]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 4:56:49 PM)
+[2016.02.13-14.56.49:068][950]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-14.56.49:090][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022239s)
+[2016.02.13-14.56.49:091][950]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-14.56.49:091][950]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2016.02.13-14.56.49:091][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.023803s)
+[2016.02.13-14.56.49:109][950]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-14.56.49:114][950]LogInit: FAudioDevice initialized.
+[2016.02.13-14.56.49:149][950]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.56.49:149][950]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.56.49:149][950]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-14.56.49:149][950]LogWorld: Game class is 'GameMode'
+[2016.02.13-14.56.49:153][950]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-15.56.49
+[2016.02.13-14.56.49:153][950]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.56.49:153][950]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.56.49:153][950]LogWorld: Bringing up level for play took: 0.003097
+[2016.02.13-14.56.49:154][950]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-14.56.49:154][950]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.994
+[2016.02.13-14.56.49:154][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.51:687][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.51:728][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.56.51:766][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000184445BD760
+[2016.02.13-14.57.35:422][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.57.35:422][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-14.57.35:422][158]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 4:57:35 PM)
+[2016.02.13-14.57.35:422][158]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-14.57.35:443][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020095s)
+[2016.02.13-14.57.35:443][158]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-14.57.35:444][158]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2016.02.13-14.57.35:444][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.021525s)
+[2016.02.13-14.57.35:463][158]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-14.57.35:468][158]LogInit: FAudioDevice initialized.
+[2016.02.13-14.57.35:503][158]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.57.35:504][158]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.57.35:504][158]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-14.57.35:504][158]LogWorld: Game class is 'GameMode'
+[2016.02.13-14.57.35:507][158]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-15.57.35
+[2016.02.13-14.57.35:507][158]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.57.35:507][158]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.57.35:508][158]LogWorld: Bringing up level for play took: 0.003061
+[2016.02.13-14.57.35:508][158]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-14.57.35:509][158]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.651
+[2016.02.13-14.57.35:509][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.57.38:126][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.57.38:155][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.57.38:180][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000184499E8B80
+[2016.02.13-14.59.34:550][591]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.02.13-14.59.34:562][591]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.02.13-14.59.40:087][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-14.59.40:088][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-14.59.40:088][997]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 4:59:40 PM)
+[2016.02.13-14.59.40:088][997]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-14.59.40:111][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023053s)
+[2016.02.13-14.59.40:112][997]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-14.59.40:113][997]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2016.02.13-14.59.40:113][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024692s)
+[2016.02.13-14.59.40:130][997]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-14.59.40:136][997]LogInit: FAudioDevice initialized.
+[2016.02.13-14.59.40:171][997]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.59.40:171][997]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-14.59.40:171][997]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-14.59.40:171][997]LogWorld: Game class is 'GameMode'
+[2016.02.13-14.59.40:175][997]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-15.59.40
+[2016.02.13-14.59.40:175][997]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.59.40:175][997]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-14.59.40:175][997]LogWorld: Bringing up level for play took: 0.003097
+[2016.02.13-14.59.40:176][997]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-14.59.40:176][997]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.016
+[2016.02.13-14.59.40:176][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.02.18:780][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.02.18:812][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.02.18:842][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001844327DBC0
+[2016.02.13-15.02.21:484][514]Cmd: TRANSACTION UNDO
+[2016.02.13-15.02.21:484][514]LogEditorTransaction: Undo Delete selection
+[2016.02.13-15.02.27:599][934]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.13-15.03.15:861][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.03.15:861][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.03.15:861][138]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:03:15 PM)
+[2016.02.13-15.03.15:861][138]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.03.15:884][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022880s)
+[2016.02.13-15.03.15:885][138]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.03.15:885][138]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2016.02.13-15.03.15:885][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024304s)
+[2016.02.13-15.03.15:905][138]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-15.03.15:910][138]LogInit: FAudioDevice initialized.
+[2016.02.13-15.03.15:947][138]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.03.15:947][138]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.03.15:947][138]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.03.15:947][138]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.03.15:951][138]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.03.15
+[2016.02.13-15.03.15:951][138]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.03.15:951][138]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.03.15:952][138]LogWorld: Bringing up level for play took: 0.003086
+[2016.02.13-15.03.15:952][138]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.03.15:953][138]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.207
+[2016.02.13-15.03.15:953][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.03.47:207][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.03.47:250][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.03.47:289][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018462628EA0
+[2016.02.13-15.04.01:072][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.04.01:072][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.04.01:072][513]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:04:01 PM)
+[2016.02.13-15.04.01:072][513]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.04.01:095][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022896s)
+[2016.02.13-15.04.01:096][513]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.04.01:096][513]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2016.02.13-15.04.01:096][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024645s)
+[2016.02.13-15.04.01:115][513]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-15.04.01:120][513]LogInit: FAudioDevice initialized.
+[2016.02.13-15.04.01:151][513]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.04.01:152][513]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.04.01:152][513]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.04.01:152][513]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.04.01:155][513]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.04.01
+[2016.02.13-15.04.01:155][513]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.04.01:155][513]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.04.01:156][513]LogWorld: Bringing up level for play took: 0.003192
+[2016.02.13-15.04.01:157][513]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.04.01:157][513]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.997
+[2016.02.13-15.04.01:157][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.04.26:584][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.04.26:627][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.04.26:663][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000184509682C0
+[2016.02.13-15.04.44:661][788]Cmd: DELETE
+[2016.02.13-15.04.44:661][788]Cmd: ACTOR DELETE
+[2016.02.13-15.04.44:710][788]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.02.13-15.04.44:726][788]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.02.13-15.04.47:956][985]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.13-15.04.51:713][174]LogEditorViewport: Clicking Background
+[2016.02.13-15.05.04:035][950]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.13-15.06.58:052][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.06.58:052][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.06.58:052][111]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:06:58 PM)
+[2016.02.13-15.06.58:052][111]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.06.58:075][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023410s)
+[2016.02.13-15.06.58:076][111]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.06.58:077][111]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2016.02.13-15.06.58:077][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024816s)
+[2016.02.13-15.06.58:096][111]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-15.06.58:102][111]LogInit: FAudioDevice initialized.
+[2016.02.13-15.06.58:137][111]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.06.58:138][111]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.06.58:138][111]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.06.58:138][111]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.06.58:142][111]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.06.58
+[2016.02.13-15.06.58:142][111]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.06.58:142][111]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.06.58:142][111]LogWorld: Bringing up level for play took: 0.003569
+[2016.02.13-15.06.58:143][111]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.06.58:143][111]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.017
+[2016.02.13-15.06.58:143][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.08.04:776][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.08.04:818][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.08.04:831][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001844305F420
+[2016.02.13-15.08.43:751][236]LogSavePackage: Save=103.425514ms
+[2016.02.13-15.08.43:751][236]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RunnerMap_Auto14900477248856FFAE371E893F87CDFE6.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto1.umap'
+[2016.02.13-15.08.43:753][236]LogSavePackage: Total save time: 119.823169ms
+[2016.02.13-15.08.43:753][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto1.umap
+[2016.02.13-15.08.43:755][236]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RunnerAssets/RunnerMap' took 0.142
+[2016.02.13-15.08.43:755][236]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2016.02.13-15.16.56:329][334]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 C:\Users\Johan\Documents\GitHub\Runner\WIP - files\RUNNER-Output-Stereo-Out-moscau.mp3)
+[2016.02.13-15.17.08:292][937]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.13-15.17.25:568][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.13-15.19.49:488][538]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Johan\Documents\GitHub\Runner\WIP - files\RUNNER -  - Output - Stereo Out - moscau.wav)
+[2016.02.13-15.19.49:587][538]LogAudioDerivedData:Display: Building compressed audio format OGG wave RUNNER_-__-_Output_-_Stereo_Out_-_moscau...
+[2016.02.13-15.19.51:662][538]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/RunnerAssets/RUNNER_-__-_Output_-_Stereo_Out_-_moscau.RUNNER_-__-_Output_-_Stereo_Out_-_moscau.
+[2016.02.13-15.20.05:180][327]LogSavePackage: Save=3.818534ms
+[2016.02.13-15.20.05:180][327]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BITbOY_-_Moskau__8-Bit_Cover__Cue0DEEC9704EA1379EDC9117B068853697.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/BITbOY_-_Moskau__8-Bit_Cover__Cue.uasset'
+[2016.02.13-15.20.05:182][327]LogSavePackage: Total save time: 12.347598ms
+[2016.02.13-15.20.05:182][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/BITbOY_-_Moskau__8-Bit_Cover__Cue.uasset
+[2016.02.13-15.20.09:629][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.20.09:630][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.20.09:630][681]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:20:09 PM)
+[2016.02.13-15.20.09:630][681]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.20.09:653][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022574s)
+[2016.02.13-15.20.09:654][681]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.20.09:654][681]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2016.02.13-15.20.09:654][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.023990s)
+[2016.02.13-15.20.09:654][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.13-15.20.09:673][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-15.20.09:693][681]LogInit: FAudioDevice initialized.
+[2016.02.13-15.20.09:729][681]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.20.09:729][681]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.20.09:729][681]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.20.09:730][681]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.20.09:734][681]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.20.09
+[2016.02.13-15.20.09:734][681]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.20.09:734][681]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.20.09:734][681]LogWorld: Bringing up level for play took: 0.003327
+[2016.02.13-15.20.09:735][681]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.20.09:735][681]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.425
+[2016.02.13-15.20.09:735][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.20.37:913][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.20.37:958][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.20.37:977][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018462629EE0
+[2016.02.13-15.20.44:009][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2016.02.13-15.20.53:296][708]LogMaterial:Warning: Material /Game/RunnerAssets/Materials/rustyFloorTexture.rustyFloorTexture needed to have new flag set bUsedWithStaticLighting !
+[2016.02.13-15.20.53:298][708]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.20.53:330][708]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.21.08:198][935]LogMaterial:Warning: Material /Game/RunnerAssets/Materials/rustyFloorTexture2.rustyFloorTexture2 needed to have new flag set bUsedWithStaticLighting !
+[2016.02.13-15.21.08:200][935]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.21.08:213][935]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.21.25:314][342]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.02.13-15.21.39:758][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.21.39:758][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.21.39:758][641]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:21:39 PM)
+[2016.02.13-15.21.39:758][641]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.21.39:781][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022791s)
+[2016.02.13-15.21.39:782][641]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.21.39:782][641]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2016.02.13-15.21.39:782][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024213s)
+[2016.02.13-15.21.39:782][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.13-15.21.39:800][641]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-15.21.39:819][641]LogInit: FAudioDevice initialized.
+[2016.02.13-15.21.39:855][641]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.21.39:855][641]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.21.39:855][641]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.21.39:855][641]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.21.39:859][641]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.21.39
+[2016.02.13-15.21.39:859][641]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.21.39:860][641]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.21.39:860][641]LogWorld: Bringing up level for play took: 0.003324
+[2016.02.13-15.21.39:860][641]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.21.39:861][641]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.299
+[2016.02.13-15.21.39:861][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.22.03:545][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.22.03:589][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.22.03:609][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018462BABF60
+[2016.02.13-15.22.50:440][823]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.02.13-15.24.02:388][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.24.02:388][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.24.02:388][690]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:24:02 PM)
+[2016.02.13-15.24.02:388][690]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.24.02:411][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023593s)
+[2016.02.13-15.24.02:413][690]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.24.02:413][690]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2016.02.13-15.24.02:413][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.025292s)
+[2016.02.13-15.24.02:436][690]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-15.24.02:456][690]LogInit: FAudioDevice initialized.
+[2016.02.13-15.24.02:488][690]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.24.02:488][690]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.24.02:488][690]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.24.02:488][690]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.24.02:493][690]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.24.02
+[2016.02.13-15.24.02:493][690]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.24.02:493][690]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.24.02:493][690]LogWorld: Bringing up level for play took: 0.003453
+[2016.02.13-15.24.02:494][690]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.24.02:494][690]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.334
+[2016.02.13-15.24.02:494][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.24.26:877][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.24.26:919][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.24.26:959][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018461832520
+[2016.02.13-15.24.30:948][381]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.31:058][381]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.31:062][381]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.31:087][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.24.31:090][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.24.32:618][451]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.24.32:618][451]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.24.32:618][451]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.24.32:618][451]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.24.39:740][994]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.39:744][994]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.39:770][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.24.40:653][ 41]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.24.40:653][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.24.40:653][ 41]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.24.40:653][ 41]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.24.46:012][424]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.46:016][424]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.47:193][486]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.24.47:193][486]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.24.47:193][486]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.24.47:193][486]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.24.54:386][ 37]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.54:391][ 37]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.54:393][ 37]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.54:393][ 37]LogMaterial:Warning: Failed to compile Material /Engine/Transient.rustyFloorTexture for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.13-15.24.54:394][ 37]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2016.02.13-15.24.54:394][ 37]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.54:396][ 37]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2016.02.13-15.24.58:392][314]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.24.58:396][314]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.24.59:561][371]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.24.59:561][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.24.59:561][371]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.24.59:561][371]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.25.07:610][ 44]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.07:614][ 44]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.07:616][ 44]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.07:617][ 44]LogMaterial:Warning: Failed to compile Material /Engine/Transient.rustyFloorTexture for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.13-15.25.07:617][ 44]LogMaterial:Warning: 	Function MetallicShading: Missing function input 'BaseColor'
+[2016.02.13-15.25.07:617][ 44]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.07:619][ 44]MaterialEditorStats:Error: Error [SM5] Function MetallicShading: Missing function input 'BaseColor'
+[2016.02.13-15.25.15:146][570]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.15:150][570]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.16:271][625]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.25.16:271][625]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.25.16:271][625]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.25.16:271][625]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.25.29:851][702]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.29:860][702]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.29:864][702]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.30:605][739]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.30:618][739]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.30:626][739]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.31:906][798]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.25.31:906][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.25.31:906][798]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.25.31:906][798]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.25.44:030][809]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.44:037][809]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.44:041][809]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.45:347][873]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.25.45:347][873]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.25.45:347][873]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.25.45:347][873]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.25.47:683][ 37]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.47:698][ 37]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.47:703][ 37]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.50:476][175]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.02.13-15.25.50:476][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.02.13-15.25.50:476][175]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.02.13-15.25.50:476][175]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.13-15.25.50:476][175]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.02.13-15.25.52:511][339]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.52:520][339]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.52:525][339]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.55:162][470]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.02.13-15.25.55:162][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.02.13-15.25.55:162][470]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.02.13-15.25.55:162][470]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.13-15.25.55:162][470]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.02.13-15.25.58:297][695]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.58:297][695]LogMaterial:Warning: Failed to compile Material /Engine/Transient.rustyFloorTexture for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.13-15.25.58:297][695]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.02.13-15.25.58:297][695]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.02.13-15.25.58:300][695]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.25.58:300][695]LogMaterial:Warning: Failed to compile Material /Engine/Transient.rustyFloorTexture for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.13-15.25.58:300][695]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.02.13-15.25.58:300][695]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.02.13-15.25.58:300][695]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.25.58:305][695]MaterialEditorStats:Error: Error [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.02.13-15.25.58:305][695]MaterialEditorStats:Error: Error [SM5] Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.02.13-15.26.04:145][ 91]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.04:152][ 91]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.04:156][ 91]LogMaterial: 0.000020 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.05:343][148]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.05:343][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.05:343][148]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.05:343][148]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.14:860][918]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.14:873][918]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.14:878][918]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.16:263][982]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.16:263][982]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.16:263][982]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.16:263][982]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.18:931][198]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.18:940][198]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.18:942][198]LogMaterial: 0.000022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.19:124][207]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.02.13-15.26.19:124][207]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.13-15.26.19:124][207]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.13-15.26.24:057][539]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.24:067][539]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.24:069][539]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.24:246][546]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.02.13-15.26.24:246][546]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.13-15.26.24:246][546]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.13-15.26.26:434][718]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.26:447][718]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.26:451][718]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.27:037][748]MaterialEditorStats: Info Default UI Shader: 28 instructions
+[2016.02.13-15.26.27:037][748]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.13-15.26.29:676][970]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.29:689][970]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.29:693][970]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.30:890][ 26]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.30:890][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.30:890][ 26]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.30:890][ 26]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.36:032][386]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.36:036][386]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.36:066][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.37:109][433]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.26.37:109][433]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.26.37:109][433]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.37:109][433]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.39:982][613]LogEditorTransaction: Undo Create Pin Link
+[2016.02.13-15.26.40:000][613]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.40:006][613]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.40:010][613]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.40:037][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.41:267][666]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.41:267][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.41:267][666]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.41:267][666]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.43:576][820]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.43:581][820]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.43:607][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.44:836][877]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2016.02.13-15.26.44:836][877]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.02.13-15.26.44:836][877]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.44:836][877]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.46:028][952]LogEditorTransaction: Undo Create Pin Link
+[2016.02.13-15.26.46:046][952]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.46:054][952]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.46:058][952]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.46:085][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.47:332][  4]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.47:332][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.47:332][  4]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.47:332][  4]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.49:538][149]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.49:543][149]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.49:573][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.50:967][211]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2016.02.13-15.26.50:967][211]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2016.02.13-15.26.50:967][211]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.50:967][211]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.52:016][275]LogEditorTransaction: Undo Create Pin Link
+[2016.02.13-15.26.52:034][275]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.52:042][275]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.52:047][275]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.52:076][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.53:351][328]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.53:351][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.53:351][328]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.53:351][328]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.53:978][375]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.53:983][375]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.54:012][375]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.55:099][422]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.26.55:099][422]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.26.55:099][422]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.55:099][422]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.26.56:293][497]LogEditorTransaction: Undo Create Pin Link
+[2016.02.13-15.26.56:311][497]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.56:318][497]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.26.56:323][497]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.26.56:348][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-15.26.57:599][549]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.26.57:599][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.26.57:599][549]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.26.57:599][549]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.27.12:121][540]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.12:126][540]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.27.12:152][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.27.13:214][589]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.27.13:214][589]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.27.13:214][589]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.27.13:214][589]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.27.35:585][ 69]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.35:590][ 69]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.27.35:620][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.27.37:198][148]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.27.37:198][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.27.37:199][148]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.27.37:199][148]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.27.42:739][510]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.42:743][510]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.27.42:771][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.27.43:826][559]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.02.13-15.27.43:826][559]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2016.02.13-15.27.43:826][559]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.27.43:826][559]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.27.53:385][192]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.53:389][192]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.27.53:419][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.27.54:745][252]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2016.02.13-15.27.54:745][252]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.13-15.27.54:745][252]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.27.54:745][252]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.27.59:203][540]LogMaterialEditor: Saving and Compiling material rustyFloorTexture
+[2016.02.13-15.27.59:554][540]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.59:567][540]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.27.59:597][540]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.59:640][540]LogMaterial: Missing cached shader map for material rustyFloorTexture, compiling. 
+[2016.02.13-15.27.59:662][540]LogMaterial: 0.001331 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.28.05:413][540]LogSavePackage: Save=14.236339ms
+[2016.02.13-15.28.05:413][540]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/rustyFloorTexture3D18E1E941177DD273D7DF867D61BB60.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Materials/rustyFloorTexture.uasset'
+[2016.02.13-15.28.05:420][540]LogSavePackage: Total save time: 27.569208ms
+[2016.02.13-15.28.05:420][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Materials/rustyFloorTexture.uasset
+[2016.02.13-15.28.05:426][540]MaterialEditorStats: Info Base pass shader with static lighting: 98 instructions
+[2016.02.13-15.28.05:426][540]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2016.02.13-15.28.05:426][540]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.28.05:426][540]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.13-15.28.12:571][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.28.12:571][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-15.28.12:571][ 51]PIE: New page: PIE session: RunnerMap (Feb 13, 2016, 5:28:12 PM)
+[2016.02.13-15.28.12:571][ 51]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.13-15.28.12:596][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025023s)
+[2016.02.13-15.28.12:597][ 51]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.13-15.28.12:597][ 51]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2016.02.13-15.28.12:597][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.026497s)
+[2016.02.13-15.28.12:624][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001842A873920
+[2016.02.13-15.28.12:624][ 51]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-15.28.12:646][ 51]LogInit: FAudioDevice initialized.
+[2016.02.13-15.28.12:683][ 51]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.28.12:684][ 51]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.13-15.28.12:684][ 51]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.13-15.28.12:684][ 51]LogWorld: Game class is 'GameMode'
+[2016.02.13-15.28.12:688][ 51]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.13-16.28.12
+[2016.02.13-15.28.12:688][ 51]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.28.12:688][ 51]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-15.28.12:688][ 51]LogWorld: Bringing up level for play took: 0.003731
+[2016.02.13-15.28.12:689][ 51]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.13-15.28.12:690][ 51]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.53
+[2016.02.13-15.28.12:690][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.29.59:524][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.29.59:569][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.13-15.29.59:596][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001844305E5C0
+[2016.02.13-15.31.01:633][474]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.01:725][474]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.01:729][474]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.01:755][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.13-15.31.01:758][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.31.03:398][553]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-15.31.03:398][553]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-15.31.03:398][553]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.31.03:398][553]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.31.06:815][785]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.06:819][785]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.06:849][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.31.07:727][832]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2016.02.13-15.31.07:727][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2016.02.13-15.31.07:727][832]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.31.07:727][832]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.31.09:265][956]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.09:269][956]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.09:296][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.31.10:183][  1]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2016.02.13-15.31.10:183][  1]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.13-15.31.10:183][  1]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.31.10:183][  1]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.31.21:595][752]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.21:599][752]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.21:622][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.13-15.31.22:510][802]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2016.02.13-15.31.22:510][802]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.13-15.31.22:510][802]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.31.22:510][802]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-15.31.27:258][107]LogMaterialEditor: Saving and Compiling material rustyFloorTexture2
+[2016.02.13-15.31.27:608][107]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.27:619][107]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.27:648][107]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.27:676][107]LogMaterial: Missing cached shader map for material rustyFloorTexture2, compiling. 
+[2016.02.13-15.31.27:697][107]LogMaterial: 0.000990 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-15.31.32:602][107]LogSavePackage: Save=13.663710ms
+[2016.02.13-15.31.32:602][107]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/rustyFloorTexture2F3E6C2084307586F5E6D8B9B7E667522.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Materials/rustyFloorTexture2.uasset'
+[2016.02.13-15.31.32:605][107]LogSavePackage: Total save time: 22.683296ms
+[2016.02.13-15.31.32:605][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Materials/rustyFloorTexture2.uasset
+[2016.02.13-15.31.32:611][107]MaterialEditorStats: Info Base pass shader with static lighting: 98 instructions
+[2016.02.13-15.31.32:611][107]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2016.02.13-15.31.32:611][107]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-15.31.32:611][107]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.13-15.31.47:405][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000184509691C0
+[2016.02.13-15.31.51:763][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/RunnerMap" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.13-15.31.51:893][221]LogSavePackage: Save=106.803329ms
+[2016.02.13-15.31.51:894][221]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RunnerMap2E0EDB31434730E2FEF29580426F9BAF.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap'
+[2016.02.13-15.31.51:898][221]LogSavePackage: Total save time: 123.224530ms
+[2016.02.13-15.31.51:898][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap
+[2016.02.13-15.31.51:944][221]LogFileHelpers: Saving map 'RunnerMap' took 0.251
+[2016.02.13-15.31.51:985][221]LogSavePackage: Save=10.718458ms
+[2016.02.13-15.31.51:986][221]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RUNNER_-__-_Output_-_Stereo_Out_-_moscau0A302DBD4FD8C750A98DEFAA37AF1DED.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RUNNER_-__-_Output_-_Stereo_Out_-_moscau.uasset'
+[2016.02.13-15.31.51:988][221]LogSavePackage: Total save time: 13.537534ms
+[2016.02.13-15.31.51:988][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RUNNER_-__-_Output_-_Stereo_Out_-_moscau.uasset
+[2016.02.13-15.31.53:882][373]Cmd: QUIT_EDITOR
+[2016.02.13-15.31.54:661][373]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-15.31.54:661][373]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-15.31.54:745][373]LogExit: Preparing to exit.
+[2016.02.13-15.36.55:985][373]LogExit: Editor shut down
+[2016.02.13-15.36.55:985][373]LogExit: Transaction tracking system shut down
+[2016.02.13-15.36.55:988][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000184452B1080
+[2016.02.13-15.36.55:988][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018425368360
+[2016.02.13-15.36.55:989][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001846092F880
+[2016.02.13-15.36.55:989][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018461830EA0
+[2016.02.13-15.36.55:989][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001842528D4E0
+[2016.02.13-15.36.55:989][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001842528D940
+[2016.02.13-15.36.56:131][373]LogExit: Object subsystem successfully closed.
+[2016.02.13-15.36.56:142][373]LogD3D11RHI: Shutdown
+[2016.02.13-15.36.56:142][373]LogD3D11RHI: CleanupD3DDevice
+[2016.02.13-15.36.56:318][373]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.13-15.36.56:339][373]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module SoundCueEditor (200)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.13-15.36.56:340][373]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.13-15.36.56:341][373]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.13-15.36.56:342][373]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.13-15.36.56:342][373]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.13-15.36.56:342][373]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.13-15.36.56:342][373]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.13-15.36.57:064][373]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.13-15.36.57:065][373]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.13-15.36.57:066][373]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.13-15.36.57:067][373]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.13-15.36.57:106][373]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.13-15.36.57:131][373]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.13-15.36.57:131][373]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.13-15.36.57:131][373]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.13-15.36.57:132][373]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.13-15.36.57:134][373]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.13-15.36.57:136][373]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.13-15.36.57:230][373]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.13-15.36.57:231][373]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.13-15.36.57:231][373]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.13-15.36.57:331][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.13-15.36.57:331][373]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.13-15.36.57:331][373]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.13-15.36.57:334][373]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.13-15.36.57:334][373]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.13-15.36.57:335][373]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.13-15.36.57:337][373]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.13-15.36.57:337][373]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.13-15.36.57:337][373]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.13-15.36.57:338][373]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.13-15.36.57:389][373]LogDerivedDataCache: Shutdown
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.13-15.36.57:389][373]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.13-15.36.57:390][373]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-15.36.59:393][373]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-15.36.59:396][373]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-15.36.59:398][373]LogExit: Exiting.
+[2016.02.13-15.36.59:418][373]Log file closed, 02/13/16 16:36:59
