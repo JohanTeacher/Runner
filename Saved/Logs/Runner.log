@@ -1,0 +1,568 @@
+﻿[2016.02.24-20.43.20:586][  0]Log file open, 02/24/16 21:43:20
+[2016.02.24-20.43.20:586][  0]LogInit:Display: Running engine for game: Runner
+[2016.02.24-20.43.20:586][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.24-20.43.20:586][  0]LogInit:Display: RandInit(-268590669) SRandInit(-268590667).
+[2016.02.24-20.43.20:586][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.24-20.43.20:586][  0]LogStats: Stats thread started at 0.120927
+[2016.02.24-20.43.20:586][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-20.43.20:586][  0]LogInit: API Version: 2758231
+[2016.02.24-20.43.20:586][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.24-20.43.20:586][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.24-20.43.20:586][  0]LogInit: Build Configuration: Development
+[2016.02.24-20.43.20:586][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.24-20.43.20:586][  0]LogInit: Command line:  
+[2016.02.24-20.43.20:586][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.24-20.43.20:586][  0]LogInit: Rocket: 1
+[2016.02.24-20.43.20:637][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-20.43.20:637][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-20.43.20:637][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-20.43.20:637][  0]LogInit:  - other features:
+[2016.02.24-20.43.20:637][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-20.43.20:637][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-20.43.20:637][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-20.43.20:637][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-20.43.20:637][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-20.43.20:637][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-20.43.20:637][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-20.43.20:637][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-20.43.20:637][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-20.43.20:637][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-20.43.20:785][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-20.43.20:799][  0]LogInit: Object subsystem initialized
+[2016.02.24-20.43.20:803][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-20.43.20:803][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-20.43.20:831][  0]LogInit: Computer: JOHANS_MONSTER
+[2016.02.24-20.43.20:831][  0]LogInit: User: Johan
+[2016.02.24-20.43.20:831][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.24-20.43.20:831][  0]LogInit: High frequency timer resolution =3.312794 MHz
+[2016.02.24-20.43.20:831][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.02.24-20.43.20:831][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-20.43.20:831][  0]LogMemory: Process Physical Memory: 56.27 MB used, 56.27 MB peak
+[2016.02.24-20.43.20:831][  0]LogMemory: Process Virtual Memory: 58.74 MB used, 58.74 MB peak
+[2016.02.24-20.43.20:831][  0]LogMemory: Physical Memory: 3575.27 MB used, 16337.33 MB total
+[2016.02.24-20.43.20:831][  0]LogMemory: Virtual Memory: 387.10 MB used, 134217728.00 MB total
+[2016.02.24-20.43.21:157][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.24-20.43.21:628][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 SE (Feature Level 11_0)
+[2016.02.24-20.43.21:628][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2016.02.24-20.43.21:629][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-20.43.21:629][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2016.02.24-20.43.21:629][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-20.43.21:632][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-20.43.21:632][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2016.02.24-20.43.21:645][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.24-20.43.21:661][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Johan/Documents/GitHub/Runner/Intermediate/Shaders/WorkingDirectory/8880/).
+[2016.02.24-20.43.21:661][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Johan/AppData/Local/Temp/UnrealShaderWorkingDir/6ECC34AA4C9DBEAE8354B298250ABC30/'.
+[2016.02.24-20.43.21:661][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-20.43.23:739][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.24-20.43.23:749][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-20.43.23:759][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-20.43.23:768][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-20.43.23:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-20.43.23:780][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-20.43.23:783][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-20.43.23:785][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-20.43.23:788][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-20.43.23:791][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-20.43.23:793][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-20.43.23:798][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.24-20.43.23:798][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-20.43.23:799][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.24-20.43.23:853][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-20.43.23:855][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-20.43.23:857][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-20.43.23:861][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-20.43.23:861][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-20.43.24:405][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache: Loaded boot cache 0.25s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-20.43.24:656][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-20.43.24:778][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-20.43.24:802][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-20.43.32:006][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-20.43.32:008][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-20.43.32:707][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-20.43.32:707][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-20.43.35:139][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-20.44.02:363][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-20.44.03:172][  0]LogAssetRegistry: FAssetRegistry took 0.0118 seconds to start up
+[2016.02.24-20.44.06:101][  0]SourceControl: Info Source control is disabled
+[2016.02.24-20.44.06:103][  0]SourceControl: Info Source control is disabled
+[2016.02.24-20.44.06:348][  0]SourceControl: Info Source control is disabled
+[2016.02.24-20.44.06:528][  0]SourceControl: Info Source control is disabled
+[2016.02.24-20.44.10:440][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.24-20.44.10:440][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.24-20.44.11:354][  0]LogEngine: Initializing Engine...
+[2016.02.24-20.44.11:360][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-20.44.11:433][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.24-20.44.13:066][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-20.44.13:136][  0]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-20.44.13:198][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-20.44.13:217][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-20.44.13:224][  0]LogInit: Texture streaming: Enabled
+[2016.02.24-20.44.13:281][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-20.44.13:281][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-20.44.13:281][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e13f53c54a08433fc09043aa962b451a|75ba5683578c43329a0522a4b145a097|e6dac55f-4bf9-412a-b229-53d1a5ef9356
+[2016.02.24-20.44.13:281][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-20.44.13:428][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.24-20.44.13:428][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.24-20.44.13:445][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-20.44.13:581][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-20.44.15:865][  0]LocalizationService: Info Localization service is disabled
+[2016.02.24-20.44.21:262][  0]LogConsoleResponse:Display: 
+[2016.02.24-20.44.25:253][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-20.44.26:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/' took 0.01s
+[2016.02.24-20.44.27:195][  0]SourceControl: Info Source control is disabled
+[2016.02.24-20.44.27:196][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-20.44.27:196][  0]LightingResults: New page: Lighting Build
+[2016.02.24-20.44.27:200][  0]MapCheck: New page: Map Check
+[2016.02.24-20.44.27:200][  0]LightingResults: New page: Lighting Build
+[2016.02.24-20.44.27:212][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DDD643B00
+[2016.02.24-20.44.41:149][  0]LogTexture:Display: Building textures: BG_Static (BGRA8)
+[2016.02.24-20.44.45:471][  0]LogMaterial: Missing cached shader map for material steam, compiling. 
+[2016.02.24-20.44.51:228][  0]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-20.44.51:280][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-20.44.51:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-20.44.51:338][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.566ms to complete.
+[2016.02.24-20.44.51:338][  0]LogFileHelpers: Loading map 'RunnerMap' took 24.142
+[2016.02.24-20.44.52:382][  0]LogCollectionManager: Loaded 0 collections in 0.002705 seconds
+[2016.02.24-20.44.52:547][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Saved/Collections/' took 0.01s
+[2016.02.24-20.44.52:547][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Developers/Johan/Collections/' took 0.01s
+[2016.02.24-20.44.52:547][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Collections/' took 0.01s
+[2016.02.24-20.44.52:547][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.24-20.44.52:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1893 classes and 338 folders.
+[2016.02.24-20.44.52:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.24-20.45.05:263][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.02.24-20.45.05:272][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.02.24-20.45.06:254][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.24-20.45.06:262][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.24-20.45.06:341][  0]LogLoad: Full Startup: 107.11 seconds (BP compile: 0.88 seconds)
+[2016.02.24-20.45.06:357][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-20.45.08:127][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.24-20.45.08:588][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.02.24-20.45.14:290][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.45.14:290][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-20.45.14:782][313]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 10:45:14 PM)
+[2016.02.24-20.45.14:782][313]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-20.45.14:811][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028886s)
+[2016.02.24-20.45.14:812][313]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-20.45.14:812][313]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2016.02.24-20.45.14:812][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.030566s)
+[2016.02.24-20.45.14:890][313]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-20.45.14:899][313]LogInit: FAudioDevice initialized.
+[2016.02.24-20.45.14:992][313]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.45.14:993][313]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.45.14:993][313]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-20.45.14:993][313]LogWorld: Game class is 'GameMode'
+[2016.02.24-20.45.14:997][313]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-21.45.14
+[2016.02.24-20.45.14:997][313]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.45.14:998][313]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.45.14:998][313]LogWorld: Bringing up level for play took: 0.003769
+[2016.02.24-20.45.14:999][313]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-20.45.16:234][313]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 2.074
+[2016.02.24-20.45.16:234][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.45.28:864][900]LogAssetRegistry: Asset discovery search completed in 85.7034 seconds
+[2016.02.24-20.45.28:864][900]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.24-20.45.28:864][900]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.02.24-20.48.04:704][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.48.04:774][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.48.04:790][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DEEDF63E0
+[2016.02.24-20.48.10:153][825]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.24-20.48.29:722][751]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-20.48.30:575][751]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.02.24-20.48.33:446][837]LogRenderer: Reallocating scene render targets to support 1208x756 (Frame:13643).
+[2016.02.24-20.49.04:978][ 50]LogActorFactory: Actor Factory created Cube
+[2016.02.24-20.49.05:452][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.24-20.50.39:668][652]LogEditorTransaction: Undo Modify Component(s)
+[2016.02.24-20.53.15:168][923]BlueprintLog: New page: Compile Block
+[2016.02.24-20.53.15:239][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_152' (it may have been removed)
+[2016.02.24-20.53.15:302][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_156' (it may have been removed)
+[2016.02.24-20.53.15:334][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_160' (it may have been removed)
+[2016.02.24-20.53.15:364][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_164' (it may have been removed)
+[2016.02.24-20.53.15:392][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_168' (it may have been removed)
+[2016.02.24-20.53.15:421][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_172' (it may have been removed)
+[2016.02.24-20.53.15:452][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_176' (it may have been removed)
+[2016.02.24-20.53.15:480][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_180' (it may have been removed)
+[2016.02.24-20.53.15:507][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_184' (it may have been removed)
+[2016.02.24-20.53.15:536][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_188' (it may have been removed)
+[2016.02.24-20.53.15:569][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_192' (it may have been removed)
+[2016.02.24-20.53.15:569][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_192' (it may have been removed)
+[2016.02.24-20.53.15:569][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_192' (it may have been removed)
+[2016.02.24-20.53.15:569][923]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_192' (it may have been removed)
+[2016.02.24-20.53.16:372][923]BlueprintEditorCompileResults: Info [0597.14] Compile of Block successful! [in 1,203 ms]
+[2016.02.24-20.53.17:999][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-20.53.18:107][981]LogSavePackage: Save=78.097221ms
+[2016.02.24-20.53.18:107][981]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block30D6ACBB49065FFCD127989862616AD0.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-20.53.18:109][981]LogSavePackage: Total save time: 90.322550ms
+[2016.02.24-20.53.18:109][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-20.53.21:496][142]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.02.24-20.53.30:258][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.53.30:258][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-20.53.30:258][454]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 10:53:30 PM)
+[2016.02.24-20.53.30:258][454]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-20.53.30:282][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023374s)
+[2016.02.24-20.53.30:283][454]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-20.53.30:283][454]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2016.02.24-20.53.30:283][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.024785s)
+[2016.02.24-20.53.30:329][454]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-20.53.30:335][454]LogInit: FAudioDevice initialized.
+[2016.02.24-20.53.30:369][454]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.53.30:369][454]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.53.30:369][454]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-20.53.30:369][454]LogWorld: Game class is 'GameMode'
+[2016.02.24-20.53.30:374][454]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-21.53.30
+[2016.02.24-20.53.30:374][454]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.53.30:374][454]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.53.30:386][454]LogWorld: Bringing up level for play took: 0.015765
+[2016.02.24-20.53.30:393][454]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-20.53.30:394][454]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.234
+[2016.02.24-20.53.30:394][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.54.56:627][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.54.56:688][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.54.56:712][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018D8A5EBB00
+[2016.02.24-20.55.08:833][425]LogRenderer: Reallocating scene render targets to support 1208x764 (Frame:45284).
+[2016.02.24-20.57.15:117][760]BlueprintLog: New page: Compile Block
+[2016.02.24-20.57.15:163][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_204' (it may have been removed)
+[2016.02.24-20.57.15:205][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_208' (it may have been removed)
+[2016.02.24-20.57.15:241][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_212' (it may have been removed)
+[2016.02.24-20.57.15:275][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_216' (it may have been removed)
+[2016.02.24-20.57.15:311][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_220' (it may have been removed)
+[2016.02.24-20.57.15:342][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_224' (it may have been removed)
+[2016.02.24-20.57.15:373][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_228' (it may have been removed)
+[2016.02.24-20.57.15:403][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_232' (it may have been removed)
+[2016.02.24-20.57.15:437][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_236' (it may have been removed)
+[2016.02.24-20.57.15:467][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_240' (it may have been removed)
+[2016.02.24-20.57.15:503][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_244' (it may have been removed)
+[2016.02.24-20.57.15:503][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_244' (it may have been removed)
+[2016.02.24-20.57.15:503][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_244' (it may have been removed)
+[2016.02.24-20.57.15:503][760]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_244' (it may have been removed)
+[2016.02.24-20.57.15:999][760]BlueprintEditorCompileResults: Info [0836.77] Compile of Block successful! [in 881 ms]
+[2016.02.24-20.57.16:800][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-20.57.16:823][791]LogSavePackage: Save=18.413761ms
+[2016.02.24-20.57.16:823][791]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block36CA827743D79D8C60D78FB0740764E4.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-20.57.16:826][791]LogSavePackage: Total save time: 25.020268ms
+[2016.02.24-20.57.16:826][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-20.58.53:102][234]BlueprintLog: New page: Compile Block
+[2016.02.24-20.58.53:129][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_252' (it may have been removed)
+[2016.02.24-20.58.53:167][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018D99CD47C0
+[2016.02.24-20.58.53:176][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_256' (it may have been removed)
+[2016.02.24-20.58.53:211][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_260' (it may have been removed)
+[2016.02.24-20.58.53:243][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_264' (it may have been removed)
+[2016.02.24-20.58.53:275][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_268' (it may have been removed)
+[2016.02.24-20.58.53:308][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_272' (it may have been removed)
+[2016.02.24-20.58.53:339][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_276' (it may have been removed)
+[2016.02.24-20.58.53:370][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_280' (it may have been removed)
+[2016.02.24-20.58.53:403][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_284' (it may have been removed)
+[2016.02.24-20.58.53:433][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_288' (it may have been removed)
+[2016.02.24-20.58.53:469][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_292' (it may have been removed)
+[2016.02.24-20.58.53:469][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_292' (it may have been removed)
+[2016.02.24-20.58.53:469][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_292' (it may have been removed)
+[2016.02.24-20.58.53:469][234]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_292' (it may have been removed)
+[2016.02.24-20.58.53:975][234]BlueprintEditorCompileResults: Info [0934.75] Compile of Block successful! [in 872 ms]
+[2016.02.24-20.59.31:062][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-20.59.31:088][722]LogSavePackage: Save=18.888588ms
+[2016.02.24-20.59.31:088][722]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block27BADC7F43C6FC183AC08C81B8B1C1C0.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-20.59.31:091][722]LogSavePackage: Total save time: 27.550463ms
+[2016.02.24-20.59.31:091][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-20.59.34:199][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.24-20.59.35:835][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-20.59.35:835][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-20.59.35:835][952]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 10:59:35 PM)
+[2016.02.24-20.59.35:835][952]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-20.59.35:860][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024622s)
+[2016.02.24-20.59.35:861][952]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-20.59.35:861][952]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2016.02.24-20.59.35:861][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.025983s)
+[2016.02.24-20.59.35:890][952]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-20.59.35:896][952]LogInit: FAudioDevice initialized.
+[2016.02.24-20.59.35:929][952]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.59.35:929][952]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-20.59.35:929][952]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-20.59.35:929][952]LogWorld: Game class is 'GameMode'
+[2016.02.24-20.59.35:933][952]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-21.59.35
+[2016.02.24-20.59.35:933][952]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.59.35:933][952]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-20.59.35:935][952]LogWorld: Bringing up level for play took: 0.003881
+[2016.02.24-20.59.35:935][952]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-20.59.35:936][952]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.224
+[2016.02.24-20.59.35:936][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.00.29:285][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.00.29:356][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.00.29:381][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DA3BC9760
+[2016.02.24-21.00.32:952][ 53]LogRenderer: Reallocating scene render targets to support 1208x772 (Frame:66754).
+[2016.02.24-21.00.47:597][465]BlueprintLog: New page: Compile Block
+[2016.02.24-21.00.47:629][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_300' (it may have been removed)
+[2016.02.24-21.00.47:677][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_304' (it may have been removed)
+[2016.02.24-21.00.47:711][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_308' (it may have been removed)
+[2016.02.24-21.00.47:743][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_312' (it may have been removed)
+[2016.02.24-21.00.47:774][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_316' (it may have been removed)
+[2016.02.24-21.00.47:806][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_320' (it may have been removed)
+[2016.02.24-21.00.47:835][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_324' (it may have been removed)
+[2016.02.24-21.00.47:866][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_328' (it may have been removed)
+[2016.02.24-21.00.47:897][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_332' (it may have been removed)
+[2016.02.24-21.00.47:929][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_336' (it may have been removed)
+[2016.02.24-21.00.47:964][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_340' (it may have been removed)
+[2016.02.24-21.00.47:964][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_340' (it may have been removed)
+[2016.02.24-21.00.47:964][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_340' (it may have been removed)
+[2016.02.24-21.00.47:964][465]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_340' (it may have been removed)
+[2016.02.24-21.00.48:471][465]BlueprintEditorCompileResults: Info [1049.24] Compile of Block successful! [in 873 ms]
+[2016.02.24-21.00.51:237][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.00.51:263][572]LogSavePackage: Save=19.628447ms
+[2016.02.24-21.00.51:263][572]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BlockB5DE23D249E309DD62DC02A8A6D385FF.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.00.51:265][572]LogSavePackage: Total save time: 26.467990ms
+[2016.02.24-21.00.51:265][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.00.53:337][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.00.53:337][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-21.00.53:337][674]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 11:00:53 PM)
+[2016.02.24-21.00.53:337][674]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-21.00.53:362][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024139s)
+[2016.02.24-21.00.53:362][674]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-21.00.53:363][674]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2016.02.24-21.00.53:363][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.025505s)
+[2016.02.24-21.00.53:392][674]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-21.00.53:398][674]LogInit: FAudioDevice initialized.
+[2016.02.24-21.00.53:435][674]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.00.53:435][674]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.00.53:435][674]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-21.00.53:435][674]LogWorld: Game class is 'GameMode'
+[2016.02.24-21.00.53:440][674]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-22.00.53
+[2016.02.24-21.00.53:440][674]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.00.53:440][674]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.00.53:440][674]LogWorld: Bringing up level for play took: 0.003997
+[2016.02.24-21.00.53:441][674]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-21.00.53:442][674]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.718
+[2016.02.24-21.00.53:442][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.02.38:117][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.02.38:176][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.02.38:205][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DA2FD7560
+[2016.02.24-21.02.42:591][248]LogRenderer: Reallocating scene render targets to support 1208x780 (Frame:73960).
+[2016.02.24-21.03.27:883][438]BlueprintLog: New page: Compile Block
+[2016.02.24-21.03.27:911][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_348' (it may have been removed)
+[2016.02.24-21.03.27:955][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_352' (it may have been removed)
+[2016.02.24-21.03.27:994][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_356' (it may have been removed)
+[2016.02.24-21.03.28:028][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_360' (it may have been removed)
+[2016.02.24-21.03.28:058][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_364' (it may have been removed)
+[2016.02.24-21.03.28:087][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_368' (it may have been removed)
+[2016.02.24-21.03.28:116][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_372' (it may have been removed)
+[2016.02.24-21.03.28:145][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_376' (it may have been removed)
+[2016.02.24-21.03.28:174][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_380' (it may have been removed)
+[2016.02.24-21.03.28:203][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_384' (it may have been removed)
+[2016.02.24-21.03.28:236][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_388' (it may have been removed)
+[2016.02.24-21.03.28:236][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_388' (it may have been removed)
+[2016.02.24-21.03.28:236][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_388' (it may have been removed)
+[2016.02.24-21.03.28:236][438]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_388' (it may have been removed)
+[2016.02.24-21.03.28:740][438]BlueprintEditorCompileResults: Info [1209.51] Compile of Block successful! [in 856 ms]
+[2016.02.24-21.03.29:515][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.03.29:539][461]LogSavePackage: Save=18.101639ms
+[2016.02.24-21.03.29:539][461]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block093457BA469003B4526C65B4FF14B5C3.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.03.29:542][461]LogSavePackage: Total save time: 24.881713ms
+[2016.02.24-21.03.29:542][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.03.33:389][621]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.03.33:389][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-21.03.33:390][621]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 11:03:33 PM)
+[2016.02.24-21.03.33:390][621]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-21.03.33:414][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024195s)
+[2016.02.24-21.03.33:415][621]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-21.03.33:415][621]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2016.02.24-21.03.33:415][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.025481s)
+[2016.02.24-21.03.33:441][621]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-21.03.33:447][621]LogInit: FAudioDevice initialized.
+[2016.02.24-21.03.33:482][621]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.03.33:482][621]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.03.33:482][621]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-21.03.33:482][621]LogWorld: Game class is 'GameMode'
+[2016.02.24-21.03.33:486][621]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-22.03.33
+[2016.02.24-21.03.33:486][621]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.03.33:487][621]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.03.33:487][621]LogWorld: Bringing up level for play took: 0.003817
+[2016.02.24-21.03.33:487][621]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-21.03.33:488][621]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.671
+[2016.02.24-21.03.33:488][621]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.04.25:086][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.04.25:154][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.04.25:179][711]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DB96CD580
+[2016.02.24-21.04.29:618][828]LogRenderer: Reallocating scene render targets to support 1208x788 (Frame:80653).
+[2016.02.24-21.04.44:665][223]BlueprintLog: New page: Compile Block
+[2016.02.24-21.04.44:695][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_396' (it may have been removed)
+[2016.02.24-21.04.44:736][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_400' (it may have been removed)
+[2016.02.24-21.04.44:769][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_404' (it may have been removed)
+[2016.02.24-21.04.44:801][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_408' (it may have been removed)
+[2016.02.24-21.04.44:831][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_412' (it may have been removed)
+[2016.02.24-21.04.44:862][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_416' (it may have been removed)
+[2016.02.24-21.04.44:891][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_420' (it may have been removed)
+[2016.02.24-21.04.44:921][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_424' (it may have been removed)
+[2016.02.24-21.04.44:953][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_428' (it may have been removed)
+[2016.02.24-21.04.44:985][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_432' (it may have been removed)
+[2016.02.24-21.04.45:022][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_436' (it may have been removed)
+[2016.02.24-21.04.45:022][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_436' (it may have been removed)
+[2016.02.24-21.04.45:022][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_436' (it may have been removed)
+[2016.02.24-21.04.45:022][223]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_436' (it may have been removed)
+[2016.02.24-21.04.45:521][223]BlueprintEditorCompileResults: Info [1286.29] Compile of Block successful! [in 856 ms]
+[2016.02.24-21.04.45:829][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.04.45:856][233]LogSavePackage: Save=19.349831ms
+[2016.02.24-21.04.45:856][233]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block0CBCC6814B29BB776C39BAAD9EFFE30E.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.04.45:858][233]LogSavePackage: Total save time: 27.733993ms
+[2016.02.24-21.04.45:858][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.04.58:875][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.04.58:910][679]LogSavePackage: Save=27.752405ms
+[2016.02.24-21.04.58:910][679]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block1D4884834392A767C902E791A0F00BB0.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.04.58:913][679]LogSavePackage: Total save time: 36.674783ms
+[2016.02.24-21.04.58:913][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.05.01:362][774]BlueprintLog: New page: Compile Block
+[2016.02.24-21.05.01:388][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_444' (it may have been removed)
+[2016.02.24-21.05.01:426][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_448' (it may have been removed)
+[2016.02.24-21.05.01:459][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_452' (it may have been removed)
+[2016.02.24-21.05.01:489][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_456' (it may have been removed)
+[2016.02.24-21.05.01:518][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_460' (it may have been removed)
+[2016.02.24-21.05.01:548][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_464' (it may have been removed)
+[2016.02.24-21.05.01:577][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_468' (it may have been removed)
+[2016.02.24-21.05.01:606][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_472' (it may have been removed)
+[2016.02.24-21.05.01:635][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_476' (it may have been removed)
+[2016.02.24-21.05.01:664][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_480' (it may have been removed)
+[2016.02.24-21.05.01:698][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_484' (it may have been removed)
+[2016.02.24-21.05.01:698][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_484' (it may have been removed)
+[2016.02.24-21.05.01:698][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_484' (it may have been removed)
+[2016.02.24-21.05.01:698][774]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_484' (it may have been removed)
+[2016.02.24-21.05.02:208][774]BlueprintEditorCompileResults: Info [1302.98] Compile of Block successful! [in 845 ms]
+[2016.02.24-21.05.04:516][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.05.04:516][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-21.05.04:516][884]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 11:05:04 PM)
+[2016.02.24-21.05.04:516][884]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-21.05.04:541][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024899s)
+[2016.02.24-21.05.04:542][884]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-21.05.04:542][884]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2016.02.24-21.05.04:543][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.026211s)
+[2016.02.24-21.05.04:571][884]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-21.05.04:577][884]LogInit: FAudioDevice initialized.
+[2016.02.24-21.05.04:607][884]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.05.04:607][884]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.05.04:607][884]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-21.05.04:607][884]LogWorld: Game class is 'GameMode'
+[2016.02.24-21.05.04:612][884]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-22.05.04
+[2016.02.24-21.05.04:612][884]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.05.04:612][884]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.05.04:612][884]LogWorld: Bringing up level for play took: 0.003856
+[2016.02.24-21.05.04:613][884]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-21.05.04:614][884]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.454
+[2016.02.24-21.05.04:614][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.07.30:368][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.07.30:428][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.07.30:454][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DF2DC2480
+[2016.02.24-21.07.34:875][715]LogRenderer: Reallocating scene render targets to support 1208x796 (Frame:90054).
+[2016.02.24-21.08.30:897][553]BlueprintLog: New page: Compile Block
+[2016.02.24-21.08.30:922][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette1_C_492' (it may have been removed)
+[2016.02.24-21.08.30:961][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Silhouette2_C_496' (it may have been removed)
+[2016.02.24-21.08.30:993][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BG_Scrolling01_Sprite' in BlueprintGeneratedClass 'REINST_BG_Static_C_500' (it may have been removed)
+[2016.02.24-21.08.31:023][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_Basefloor_C_504' (it may have been removed)
+[2016.02.24-21.08.31:052][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor3' in BlueprintGeneratedClass 'REINST_Block_Basefloor3_C_508' (it may have been removed)
+[2016.02.24-21.08.31:080][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor4' in BlueprintGeneratedClass 'REINST_Block_Basefloor4_C_512' (it may have been removed)
+[2016.02.24-21.08.31:109][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorDown' in BlueprintGeneratedClass 'REINST_Block_FloorDown_C_516' (it may have been removed)
+[2016.02.24-21.08.31:141][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge_C_520' (it may have been removed)
+[2016.02.24-21.08.31:175][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorHigh' in BlueprintGeneratedClass 'REINST_Block_FloorLarge2_C_524' (it may have been removed)
+[2016.02.24-21.08.31:205][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floorUp' in BlueprintGeneratedClass 'REINST_Block_FloorUp_C_528' (it may have been removed)
+[2016.02.24-21.08.31:240][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'floor' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_532' (it may have been removed)
+[2016.02.24-21.08.31:240][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventBase' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_532' (it may have been removed)
+[2016.02.24-21.08.31:240][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ventLid' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_532' (it may have been removed)
+[2016.02.24-21.08.31:240][553]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'steam' in BlueprintGeneratedClass 'REINST_Block_FloorWithVent_C_532' (it may have been removed)
+[2016.02.24-21.08.31:748][553]BlueprintEditorCompileResults: Info [1512.52] Compile of Block successful! [in 850 ms]
+[2016.02.24-21.08.33:687][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.08.33:711][625]LogSavePackage: Save=18.351580ms
+[2016.02.24-21.08.33:711][625]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BlockD292C79245DFE1A2A3F3149297577518.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.08.33:713][625]LogSavePackage: Total save time: 25.295567ms
+[2016.02.24-21.08.33:713][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.08.44:476][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.24-21.08.44:493][ 37]LogSavePackage: Save=11.952750ms
+[2016.02.24-21.08.44:493][ 37]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BlockF818759F4B95033996EBE89177199AAC.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.24-21.08.44:495][ 37]LogSavePackage: Total save time: 17.576706ms
+[2016.02.24-21.08.44:495][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.24-21.08.55:522][410]LogRenderer: Reallocating scene render targets to support 1208x800 (Frame:97189).
+[2016.02.24-21.08.55:949][413]LogRenderer: Reallocating scene render targets to support 1208x824 (Frame:97195).
+[2016.02.24-21.09.33:226][515]BlueprintLog: New page: Compile Block_FloorDown
+[2016.02.24-21.09.33:305][515]BlueprintEditorCompileResults: Info [1574.08] Compile of Block_FloorDown successful! [in 78 ms]
+[2016.02.24-21.09.34:190][537]LogSavePackage: Save=25.681948ms
+[2016.02.24-21.09.34:190][537]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block_FloorDown036A03C94882443AEE928BA15BCBF5F6.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block_FloorDown.uasset'
+[2016.02.24-21.09.34:193][537]LogSavePackage: Total save time: 36.038764ms
+[2016.02.24-21.09.34:193][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block_FloorDown.uasset
+[2016.02.24-21.09.37:584][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.09.37:584][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-21.09.37:584][668]PIE: New page: PIE session: RunnerMap (Feb 24, 2016, 11:09:37 PM)
+[2016.02.24-21.09.37:584][668]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.02.24-21.09.37:611][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026210s)
+[2016.02.24-21.09.37:612][668]LogAIModule: Creating AISystem for world RunnerMap
+[2016.02.24-21.09.37:612][668]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2016.02.24-21.09.37:612][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.027549s)
+[2016.02.24-21.09.37:648][668]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-21.09.37:655][668]LogInit: FAudioDevice initialized.
+[2016.02.24-21.09.37:689][668]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.09.37:690][668]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.02.24-21.09.37:690][668]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.02.24-21.09.37:690][668]LogWorld: Game class is 'GameMode'
+[2016.02.24-21.09.37:694][668]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.02.24-22.09.37
+[2016.02.24-21.09.37:694][668]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.09.37:694][668]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-21.09.37:695][668]LogWorld: Bringing up level for play took: 0.003907
+[2016.02.24-21.09.37:695][668]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.24-21.09.37:696][668]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.464
+[2016.02.24-21.09.37:696][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.10.52:130][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.10.52:201][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.02.24-21.10.52:232][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018D95384180
+[2016.02.24-21.11.17:817][720]LogSavePackage: Save=170.278320ms
+[2016.02.24-21.11.17:817][720]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RunnerMap_Auto146EB3749496001E5D589A6BA868C5B71.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto1.umap'
+[2016.02.24-21.11.17:819][720]LogSavePackage: Total save time: 183.515485ms
+[2016.02.24-21.11.17:819][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto1.umap
+[2016.02.24-21.11.17:833][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RunnerAssets/RunnerMap' took 0.269
+[2016.02.24-21.11.17:833][720]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2016.02.24-21.11.17:839][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Block/Block] ([1] browsable assets)...
+[2016.02.24-21.11.17:839][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Block/Block]
+[2016.02.24-21.11.17:859][720]LogSavePackage: Save=12.016443ms
+[2016.02.24-21.11.17:859][720]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block_Auto1D47F8FEA4DFA17BCFD03CFBB635AF979.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Block/Block_Auto1.uasset'
+[2016.02.24-21.11.17:860][720]LogSavePackage: Total save time: 19.135207ms
+[2016.02.24-21.11.17:860][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Block/Block_Auto1.uasset
+[2016.02.24-21.11.17:860][720]LogFileHelpers: Auto-saving content packages took 0.025
+[2016.02.24-22.00.33:748][223]LogEditorViewport: Clicking on Actor (LMB): BG_Silhouette2_C (BG_Silhouette2)
+[2016.02.24-22.00.34:821][287]LogEditorViewport: Clicking on Actor (LMB): BG_Static_C (BG_Static)
+[2016.02.24-22.00.38:748][530]LogEditorViewport: Clicking on Actor (LMB): BG_Silhouette2_C (BG_Silhouette2)
+[2016.02.24-22.00.39:695][587]LogEditorViewport: Clicking on Actor (LMB): BG_Static_C (BG_Static)
+[2016.02.24-22.01.05:746][911]LogRenderer: Reallocating scene render targets to support 1208x832 (Frame:165147).
+[2016.02.24-22.03.10:189][667]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.02.24-22.03.16:701][986]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.02.24-22.03.44:260][379]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.24-22.03.45:059][430]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.24-22.03.47:345][578]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.24-22.04.37:581][416]LogSavePackage: Save=130.953201ms
+[2016.02.24-22.04.37:581][416]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RunnerMap_Auto20E966D18469C2C025407F2B894BA7114.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto2.umap'
+[2016.02.24-22.04.37:583][416]LogSavePackage: Total save time: 144.566189ms
+[2016.02.24-22.04.37:583][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/RunnerMap_Auto2.umap
+[2016.02.24-22.04.37:585][416]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RunnerAssets/RunnerMap' took 0.180
+[2016.02.24-22.04.37:585][416]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.180
+[2016.02.24-22.04.37:591][416]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RunnerAssets/Blueprints/Block/BG_Static] ([1] browsable assets)...
+[2016.02.24-22.04.37:610][416]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RunnerAssets/Blueprints/Block/BG_Static.BG_Static]
+[2016.02.24-22.04.37:610][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Block/BG_Static]
+[2016.02.24-22.04.37:656][416]LogSavePackage: Save=39.469704ms
+[2016.02.24-22.04.37:656][416]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BG_Static_Auto2A52D954D40B6E4135AC44CA219B6AEA5.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Block/BG_Static_Auto2.uasset'
+[2016.02.24-22.04.37:658][416]LogSavePackage: Total save time: 46.630729ms
+[2016.02.24-22.04.37:658][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Block/BG_Static_Auto2.uasset
+[2016.02.24-22.04.37:658][416]LogFileHelpers: Auto-saving content packages took 0.072
+[2016.02.24-22.21.31:169][866]LogEditorViewport: Clicking on Actor (LMB): BG_Static_C (BG_Static)
+[2016.02.24-22.21.47:364][552]LogRenderer: Reallocating scene render targets to support 1208x844 (Frame:208234).
+[2016.02.25-00.25.24:463][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DA3472160
+[2016.02.25-00.25.24:464][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018DA30E4EA0
+[2016.02.25-00.25.31:133][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/RunnerMap" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-00.25.31:382][197]LogSavePackage: Save=197.895187ms
+[2016.02.25-00.25.31:382][197]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/RunnerMapFA128B9441A34A5DA7688BA9CBD1564E.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap'
+[2016.02.25-00.25.31:385][197]LogSavePackage: Total save time: 218.330510ms
+[2016.02.25-00.25.31:385][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap
+[2016.02.25-00.25.31:426][197]LogFileHelpers: Saving map 'RunnerMap' took 0.360
+[2016.02.25-00.25.31:432][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/Block" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset" SILENT=true
+[2016.02.25-00.25.31:451][197]LogSavePackage: Save=11.977503ms
+[2016.02.25-00.25.31:451][197]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Block8DECA4194358FBEC4D2AE38CAD51033A.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset'
+[2016.02.25-00.25.31:454][197]LogSavePackage: Total save time: 20.438336ms
+[2016.02.25-00.25.31:454][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/Block.uasset
+[2016.02.25-00.25.31:461][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Block/BG_Static" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/BG_Static.uasset" SILENT=true
+[2016.02.25-00.25.31:500][197]LogSavePackage: Save=30.976572ms
+[2016.02.25-00.25.31:500][197]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/BG_Static65936CFA4CC6148CD8F2498543549CCB.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Block/BG_Static.uasset'
+[2016.02.25-00.25.31:503][197]LogSavePackage: Total save time: 39.773978ms
+[2016.02.25-00.25.31:503][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Blo
