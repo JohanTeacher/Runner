@@ -1,0 +1,680 @@
+﻿[2016.06.04-08.36.39:471][  0]Log file open, 06/04/16 10:36:39
+[2016.06.04-08.36.39:471][  0]LogInit:Display: Running engine for game: Runner
+[2016.06.04-08.36.39:471][  0]LogPlatformFile: Not using cached read wrapper
+[2016.06.04-08.36.39:471][  0]LogInit:Display: RandInit(1517419444) SRandInit(1517419445).
+[2016.06.04-08.36.39:471][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.06.04-08.36.39:471][  0]LogStats: Stats thread started at 0.100398
+[2016.06.04-08.36.39:471][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.06.04-08.36.39:471][  0]LogInit: API Version: 2758231
+[2016.06.04-08.36.39:471][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.06.04-08.36.39:471][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.06.04-08.36.39:471][  0]LogInit: Build Configuration: Development
+[2016.06.04-08.36.39:471][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.06.04-08.36.39:471][  0]LogInit: Command line:  
+[2016.06.04-08.36.39:471][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.06.04-08.36.39:471][  0]LogInit: Rocket: 1
+[2016.06.04-08.36.39:563][  0]LogInit: Using libcurl 7.41.0
+[2016.06.04-08.36.39:563][  0]LogInit:  - built for x86_64-pc-win32
+[2016.06.04-08.36.39:563][  0]LogInit:  - supports SSL with WinSSL
+[2016.06.04-08.36.39:563][  0]LogInit:  - other features:
+[2016.06.04-08.36.39:563][  0]LogInit:      CURL_VERSION_SSL
+[2016.06.04-08.36.39:563][  0]LogInit:      CURL_VERSION_IPV6
+[2016.06.04-08.36.39:563][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.06.04-08.36.39:563][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.06.04-08.36.39:563][  0]LogInit:      CURL_VERSION_IDN
+[2016.06.04-08.36.39:563][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.06.04-08.36.39:563][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.06.04-08.36.39:563][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.06.04-08.36.39:563][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.06.04-08.36.39:563][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.06.04-08.36.39:604][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.06.04-08.36.39:613][  0]LogInit: Object subsystem initialized
+[2016.06.04-08.36.39:614][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.04-08.36.39:614][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.04-08.36.39:630][  0]LogInit: Computer: JOHANS_MONSTER
+[2016.06.04-08.36.39:630][  0]LogInit: User: Johan
+[2016.06.04-08.36.39:630][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.06.04-08.36.39:630][  0]LogInit: High frequency timer resolution =3.312791 MHz
+[2016.06.04-08.36.39:630][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.06.04-08.36.39:630][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.04-08.36.39:630][  0]LogMemory: Process Physical Memory: 56.21 MB used, 56.21 MB peak
+[2016.06.04-08.36.39:630][  0]LogMemory: Process Virtual Memory: 58.68 MB used, 58.68 MB peak
+[2016.06.04-08.36.39:630][  0]LogMemory: Physical Memory: 2964.69 MB used, 16337.33 MB total
+[2016.06.04-08.36.39:630][  0]LogMemory: Virtual Memory: 384.78 MB used, 134217728.00 MB total
+[2016.06.04-08.36.39:777][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.06.04-08.36.40:229][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 SE (Feature Level 11_0)
+[2016.06.04-08.36.40:229][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2016.06.04-08.36.40:281][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.06.04-08.36.40:281][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2016.06.04-08.36.40:281][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.06.04-08.36.40:284][  0]LogD3D11RHI: !Direct3DDevice
+[2016.06.04-08.36.40:284][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2016.06.04-08.36.40:296][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.04-08.36.40:312][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Johan/Documents/GitHub/Runner/Intermediate/Shaders/WorkingDirectory/9508/).
+[2016.06.04-08.36.40:312][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Johan/AppData/Local/Temp/UnrealShaderWorkingDir/3606EC2547923881143329BE702B2F46/'.
+[2016.06.04-08.36.40:312][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.04-08.36.41:773][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.04-08.36.41:778][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.04-08.36.41:783][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.04-08.36.41:787][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.04-08.36.41:791][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.04-08.36.41:795][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.04-08.36.41:798][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.04-08.36.41:800][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.04-08.36.41:803][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.04-08.36.41:806][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.04-08.36.41:808][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.04-08.36.41:814][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.04-08.36.41:814][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.04-08.36.41:815][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.04-08.36.41:848][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.04-08.36.41:850][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.04-08.36.41:853][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.04-08.36.41:856][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.04-08.36.41:856][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.04-08.36.42:270][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache: Loaded boot cache 0.50s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Johan/Documents/GitHub/Runner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.04-08.36.42:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.04-08.36.42:914][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.04-08.36.42:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.04-08.36.47:356][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.04-08.36.47:359][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.06.04-08.36.47:488][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.04-08.36.47:488][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.04-08.36.47:920][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.04-08.37.06:126][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.04-08.37.06:653][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.06.04-08.37.06:829][  0]SourceControl: Info Source control is disabled
+[2016.06.04-08.37.06:830][  0]SourceControl: Info Source control is disabled
+[2016.06.04-08.37.06:843][  0]SourceControl: Info Source control is disabled
+[2016.06.04-08.37.06:856][  0]SourceControl: Info Source control is disabled
+[2016.06.04-08.37.07:768][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.06.04-08.37.07:768][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.06.04-08.37.07:834][  0]LogEngine: Initializing Engine...
+[2016.06.04-08.37.07:836][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.06.04-08.37.07:850][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.06.04-08.37.07:980][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.04-08.37.07:987][  0]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-08.37.07:995][  0]LogInit: FAudioDevice initialized.
+[2016.06.04-08.37.08:013][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Johan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.06.04-08.37.08:019][  0]LogInit: Texture streaming: Enabled
+[2016.06.04-08.37.08:025][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.06.04-08.37.08:025][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.06.04-08.37.08:025][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e13f53c54a08433fc09043aa962b451a|75ba5683578c43329a0522a4b145a097|e6dac55f-4bf9-412a-b229-53d1a5ef9356
+[2016.06.04-08.37.08:025][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.06.04-08.37.08:034][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.04-08.37.08:034][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.04-08.37.08:053][  0]LogInit: Transaction tracking system initialized
+[2016.06.04-08.37.08:082][  0]BlueprintLog: New page: Editor Load
+[2016.06.04-08.37.08:200][  0]LocalizationService: Info Localization service is disabled
+[2016.06.04-08.37.08:497][  0]LogConsoleResponse:Display: 
+[2016.06.04-08.37.13:482][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.04-08.37.14:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/' took 0.02s
+[2016.06.04-08.37.14:424][  0]SourceControl: Info Source control is disabled
+[2016.06.04-08.37.14:425][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/RunnerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.04-08.37.14:707][  0]LightingResults: New page: Lighting Build
+[2016.06.04-08.37.14:710][  0]MapCheck: New page: Map Check
+[2016.06.04-08.37.14:710][  0]LightingResults: New page: Lighting Build
+[2016.06.04-08.37.14:720][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000256566B3B00
+[2016.06.04-08.37.32:147][  0]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-08.37.35:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.04-08.37.35:088][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.04-08.37.35:156][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.648ms to complete.
+[2016.06.04-08.37.35:156][  0]LogFileHelpers: Loading map 'RunnerMap' took 20.731
+[2016.06.04-08.37.35:513][  0]LogCollectionManager: Loaded 0 collections in 0.002363 seconds
+[2016.06.04-08.37.35:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Saved/Collections/' took 0.01s
+[2016.06.04-08.37.35:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Developers/Johan/Collections/' took 0.01s
+[2016.06.04-08.37.35:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Johan/Documents/GitHub/Runner/Content/Collections/' took 0.01s
+[2016.06.04-08.37.35:551][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.06.04-08.37.35:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1893 classes and 338 folders.
+[2016.06.04-08.37.35:565][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.04-08.37.41:167][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.04-08.37.41:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.04-08.37.41:519][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.04-08.37.41:524][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.04-08.37.41:547][  0]LogLoad: Full Startup: 62.92 seconds (BP compile: 0.68 seconds)
+[2016.06.04-08.37.41:559][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.06.04-08.37.41:784][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.04-08.37.42:114][  1]LogRenderer: Reallocating scene render targets to support 1208x644 (Frame:2).
+[2016.06.04-08.37.42:910][ 13]LogAssetRegistry: Asset discovery search completed in 36.2678 seconds
+[2016.06.04-08.37.42:910][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.04-08.37.42:910][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.06.04-08.38.42:811][767]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.04-08.38.43:230][767]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.06.04-08.47.41:391][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.04-08.47.41:500][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RunnerAssets/RunnerMap' took 0.108
+[2016.06.04-08.47.41:507][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint] ([1] browsable assets)...
+[2016.06.04-08.47.41:507][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint]
+[2016.06.04-08.47.41:994][670]LogSavePackage: Save=358.740417ms
+[2016.06.04-08.47.41:995][670]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/SpawnBox_Blueprint_Auto1471D772949747E95FFFC31A4302B0FE4.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint_Auto1.uasset'
+[2016.06.04-08.47.41:997][670]LogSavePackage: Total save time: 488.106556ms
+[2016.06.04-08.47.41:997][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint_Auto1.uasset
+[2016.06.04-08.47.42:002][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint] ([1] browsable assets)...
+[2016.06.04-08.47.42:002][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint]
+[2016.06.04-08.47.42:304][670]LogSavePackage: Save=242.537781ms
+[2016.06.04-08.47.42:305][670]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/SpawnWalls_Blueprint_Auto16E5AD490404C20ED6DF77AB1ECA4B658.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint_Auto1.uasset'
+[2016.06.04-08.47.42:306][670]LogSavePackage: Total save time: 302.537650ms
+[2016.06.04-08.47.42:306][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint_Auto1.uasset
+[2016.06.04-08.47.42:306][670]LogFileHelpers: Auto-saving content packages took 0.806
+[2016.06.04-08.49.05:928][429]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-08.49.06:123][429]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-08.49.06:123][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-08.49.06:123][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-08.49.06:123][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-08.49.06:123][429]BlueprintEditorCompileResults: Info [0747.50] Compile of SpawnWalls_Blueprint successful! [in 194 ms]
+[2016.06.04-08.49.07:788][583]LogSavePackage: Save=296.136414ms
+[2016.06.04-08.49.07:788][583]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/SpawnWalls_BlueprintF072207347F25A0270B48B84369434E7.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.uasset'
+[2016.06.04-08.49.07:791][583]LogSavePackage: Total save time: 312.114768ms
+[2016.06.04-08.49.07:791][583]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.uasset
+[2016.06.04-08.49.08:652][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.49.08:652][681]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.04-08.49.08:666][681]LogPlayLevel: [PlayLevel] Compiling SpawnBox_Blueprint before play...
+[2016.06.04-08.49.08:851][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 199 ms (7 blueprints)
+[2016.06.04-08.49.08:852][681]LogPlayLevel: [PlayLevel] Compiling DeleteObject_Blueprint before play...
+[2016.06.04-08.49.08:915][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 262 ms (7 blueprints)
+[2016.06.04-08.49.08:915][681]LogPlayLevel: [PlayLevel] Compiling GameOverCheck_BP before play...
+[2016.06.04-08.49.09:014][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 361 ms (7 blueprints)
+[2016.06.04-08.49.09:015][681]LogPlayLevel: [PlayLevel] Compiling SpawnBG_01_Blueprint before play...
+[2016.06.04-08.49.09:099][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 446 ms (7 blueprints)
+[2016.06.04-08.49.09:100][681]LogPlayLevel: [PlayLevel] Compiling SpawnBG_02_Blueprint before play...
+[2016.06.04-08.49.09:184][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 531 ms (7 blueprints)
+[2016.06.04-08.49.09:188][681]LogPlayLevel: [PlayLevel] Compiling SpawnWalls_Blueprint before play...
+[2016.06.04-08.49.09:312][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 659 ms (7 blueprints)
+[2016.06.04-08.49.09:312][681]LogPlayLevel: [PlayLevel] Compiling RunnerMap before play...
+[2016.06.04-08.49.09:388][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 735 ms (7 blueprints)
+[2016.06.04-08.49.09:429][681]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 12:49:09 PM)
+[2016.06.04-08.49.09:429][681]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-08.49.09:461][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031918s)
+[2016.06.04-08.49.09:462][681]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-08.49.09:462][681]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2016.06.04-08.49.09:462][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.033396s)
+[2016.06.04-08.49.09:494][681]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-08.49.09:500][681]LogInit: FAudioDevice initialized.
+[2016.06.04-08.49.09:576][681]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.49.09:576][681]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.49.09:576][681]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.49.09:576][681]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.49.09:582][681]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-10.49.09
+[2016.06.04-08.49.09:582][681]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.49.09:583][681]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.49.09:583][681]LogWorld: Bringing up level for play took: 0.006071
+[2016.06.04-08.49.09:584][681]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.49.09:595][681]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 1.437
+[2016.06.04-08.49.09:595][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.49.09:672][682]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:3964).
+[2016.06.04-08.49.22:953][280]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.06.04-08.49.38:328][751]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.06.04-08.49.38:985][768]LogScript:Warning: Attempted to get an item from array list out of bounds [4/3]!
+[2016.06.04-08.49.39:086][768]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Death.umap.
+[2016.06.04-08.49.39:184][769]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve Death.umap.
+[2016.06.04-08.49.39:184][769]LogNet: Browse: /Game/RunnerAssets/Death
+[2016.06.04-08.49.39:184][769]LogLoad: LoadMap: /Game/RunnerAssets/Death
+[2016.06.04-08.49.39:258][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002561C4CEA20
+[2016.06.04-08.49.39:258][769]Cmd: MEM
+[2016.06.04-08.49.39:294][769]LogMemory: Platform Memory Stats for Windows
+[2016.06.04-08.49.39:294][769]LogMemory: Process Physical Memory: 1378.67 MB used, 1387.73 MB peak
+[2016.06.04-08.49.39:294][769]LogMemory: Process Virtual Memory: 2000.29 MB used, 2228.17 MB peak
+[2016.06.04-08.49.39:294][769]LogMemory: Physical Memory: 4574.94 MB used, 16337.33 MB total
+[2016.06.04-08.49.39:294][769]LogMemory: Virtual Memory: 2932.48 MB used, 134217728.00 MB total
+[2016.06.04-08.49.39:294][769]LogMemory: 
+[2016.06.04-08.49.39:294][769]Allocator Stats for TBB: (not implemented)
+[2016.06.04-08.49.40:067][769]LogAIModule: Creating AISystem for world Death
+[2016.06.04-08.49.40:068][769]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.49.40:068][769]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.49.40:068][769]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.49.40:068][769]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.49.40:070][769]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_Death.Death up for play (max tick rate 0) at 2016.06.04-10.49.40
+[2016.06.04-08.49.40:070][769]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.49.40:070][769]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.49.40:070][769]LogWorld: Bringing up level for play took: 0.000995
+[2016.06.04-08.49.40:071][769]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.49.40:109][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.49.40:163][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.49.40:217][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002565C991F80
+[2016.06.04-08.52.12:873][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4121.EdGraphPin_12324) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3846.EdGraphPin_12338).  Import failed...
+[2016.06.04-08.52.12:873][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4121.EdGraphPin_12324''
+[2016.06.04-08.52.12:873][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3847 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3847
+[2016.06.04-08.52.12:873][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3847.EdGraphPin_14049) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3846.EdGraphPin_12341).  Import failed...
+[2016.06.04-08.52.12:873][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3847.EdGraphPin_14049''
+[2016.06.04-08.52.12:874][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910
+[2016.06.04-08.52.12:874][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_14097) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3847.EdGraphPin_14046).  Import failed...
+[2016.06.04-08.52.12:874][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4910.EdGraphPin_14097''
+[2016.06.04-08.52.12:874][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3849 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3849
+[2016.06.04-08.52.12:874][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3849.EdGraphPin_14072) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3848.EdGraphPin_14063).  Import failed...
+[2016.06.04-08.52.12:874][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3849.EdGraphPin_14072''
+[2016.06.04-08.52.12:875][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4909 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4909
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4909.EdGraphPin_14079) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3849.EdGraphPin_14073).  Import failed...
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4909.EdGraphPin_14079''
+[2016.06.04-08.52.12:875][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_14094) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4909.EdGraphPin_14080).  Import failed...
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4910.EdGraphPin_14094''
+[2016.06.04-08.52.12:875][781]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_14096) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4909.EdGraphPin_14082).  Import failed...
+[2016.06.04-08.52.12:875][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4910.EdGraphPin_14096''
+[2016.06.04-08.52.12:876][781]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4912.EdGraphPin_14126) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_14095).  Import failed...
+[2016.06.04-08.52.12:876][781]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4912.EdGraphPin_14126''
+[2016.06.04-08.52.45:528][626]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-08.52.45:703][626]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-08.52.45:703][626]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-08.52.45:703][626]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-08.52.45:703][626]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-08.52.45:703][626]BlueprintEditorCompileResults: Info [0967.07] Compile of SpawnWalls_Blueprint successful! [in 174 ms]
+[2016.06.04-08.52.46:809][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.52.46:809][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-08.52.46:810][749]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 12:52:46 PM)
+[2016.06.04-08.52.46:810][749]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-08.52.46:843][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033257s)
+[2016.06.04-08.52.46:844][749]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-08.52.46:844][749]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2016.06.04-08.52.46:844][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.034812s)
+[2016.06.04-08.52.46:879][749]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-08.52.46:886][749]LogInit: FAudioDevice initialized.
+[2016.06.04-08.52.46:963][749]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.52.46:963][749]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.52.46:963][749]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.52.46:963][749]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.52.46:970][749]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-10.52.46
+[2016.06.04-08.52.46:970][749]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.52.46:971][749]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.52.46:971][749]LogWorld: Bringing up level for play took: 0.007390
+[2016.06.04-08.52.46:972][749]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.52.46:983][749]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.826
+[2016.06.04-08.52.46:983][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.53.04:870][548]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.06.04-08.53.41:238][608]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.06.04-08.53.41:723][619]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.06.04-08.53.42:786][641]LogScript:Warning: Attempted to get an item from array list out of bounds [4/3]!
+[2016.06.04-08.53.42:871][641]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve Death.umap.
+[2016.06.04-08.53.42:972][642]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve Death.umap.
+[2016.06.04-08.53.42:972][642]LogNet: Browse: /Game/RunnerAssets/Death
+[2016.06.04-08.53.42:972][642]LogLoad: LoadMap: /Game/RunnerAssets/Death
+[2016.06.04-08.53.43:070][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025625F68F40
+[2016.06.04-08.53.43:089][642]Cmd: MEM
+[2016.06.04-08.53.43:122][642]LogMemory: Platform Memory Stats for Windows
+[2016.06.04-08.53.43:122][642]LogMemory: Process Physical Memory: 1590.80 MB used, 1590.98 MB peak
+[2016.06.04-08.53.43:122][642]LogMemory: Process Virtual Memory: 2228.81 MB used, 2260.70 MB peak
+[2016.06.04-08.53.43:122][642]LogMemory: Physical Memory: 4811.72 MB used, 16337.33 MB total
+[2016.06.04-08.53.43:122][642]LogMemory: Virtual Memory: 3023.66 MB used, 134217728.00 MB total
+[2016.06.04-08.53.43:122][642]LogMemory: 
+[2016.06.04-08.53.43:122][642]Allocator Stats for TBB: (not implemented)
+[2016.06.04-08.53.43:160][642]LogAIModule: Creating AISystem for world Death
+[2016.06.04-08.53.43:161][642]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.53.43:161][642]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.53.43:161][642]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.53.43:161][642]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.53.43:163][642]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_Death.Death up for play (max tick rate 0) at 2016.06.04-10.53.43
+[2016.06.04-08.53.43:163][642]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.53.43:163][642]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.53.43:163][642]LogWorld: Bringing up level for play took: 0.001056
+[2016.06.04-08.53.43:164][642]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.53.47:562][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.53.47:618][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.53.47:661][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002565CB19760
+[2016.06.04-08.57.55:034][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.57.55:034][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.04-08.57.55:038][826]LogPlayLevel: [PlayLevel] Compiling SpawnWalls_Blueprint before play...
+[2016.06.04-08.57.55:177][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (2 blueprints)
+[2016.06.04-08.57.55:177][826]LogPlayLevel: [PlayLevel] Compiling RunnerMap before play...
+[2016.06.04-08.57.55:264][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 229 ms (2 blueprints)
+[2016.06.04-08.57.55:301][826]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 12:57:55 PM)
+[2016.06.04-08.57.55:301][826]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-08.57.55:337][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036186s)
+[2016.06.04-08.57.55:338][826]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-08.57.55:339][826]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2016.06.04-08.57.55:339][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.037823s)
+[2016.06.04-08.57.55:379][826]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-08.57.55:387][826]LogInit: FAudioDevice initialized.
+[2016.06.04-08.57.55:458][826]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.57.55:458][826]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.57.55:458][826]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.57.55:459][826]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.57.55:470][826]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-10.57.55
+[2016.06.04-08.57.55:470][826]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.57.55:470][826]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.57.55:471][826]LogWorld: Bringing up level for play took: 0.011281
+[2016.06.04-08.57.55:472][826]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.57.55:485][826]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 1.328
+[2016.06.04-08.57.55:486][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.58.37:501][235]LogScript:Warning: Attempted to get an item from array list out of bounds [4/3]!
+[2016.06.04-08.58.37:606][235]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Death.umap.
+[2016.06.04-08.58.37:717][236]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Death.umap.
+[2016.06.04-08.58.37:717][236]LogNet: Browse: /Game/RunnerAssets/Death
+[2016.06.04-08.58.37:717][236]LogLoad: LoadMap: /Game/RunnerAssets/Death
+[2016.06.04-08.58.37:816][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002562D161E40
+[2016.06.04-08.58.37:816][236]Cmd: MEM
+[2016.06.04-08.58.37:847][236]LogMemory: Platform Memory Stats for Windows
+[2016.06.04-08.58.37:847][236]LogMemory: Process Physical Memory: 1839.55 MB used, 1839.74 MB peak
+[2016.06.04-08.58.37:847][236]LogMemory: Process Virtual Memory: 2485.45 MB used, 2487.45 MB peak
+[2016.06.04-08.58.37:847][236]LogMemory: Physical Memory: 5067.02 MB used, 16337.33 MB total
+[2016.06.04-08.58.37:847][236]LogMemory: Virtual Memory: 3278.16 MB used, 134217728.00 MB total
+[2016.06.04-08.58.37:847][236]LogMemory: 
+[2016.06.04-08.58.37:847][236]Allocator Stats for TBB: (not implemented)
+[2016.06.04-08.58.37:886][236]LogAIModule: Creating AISystem for world Death
+[2016.06.04-08.58.37:887][236]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.58.37:887][236]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.58.37:887][236]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.58.37:887][236]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.58.37:889][236]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_Death.Death up for play (max tick rate 0) at 2016.06.04-10.58.37
+[2016.06.04-08.58.37:889][236]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.58.37:889][236]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_Death.Death:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.58.37:889][236]LogWorld: Bringing up level for play took: 0.001085
+[2016.06.04-08.58.37:890][236]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.58.48:685][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.58.48:745][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.58.48:804][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002565BA4D9E0
+[2016.06.04-08.59.16:108][382]LogEditorTransaction: Undo Delete current selection
+[2016.06.04-08.59.20:491][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.59.20:491][870]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.04-08.59.20:495][870]LogPlayLevel: [PlayLevel] Compiling SpawnWalls_Blueprint before play...
+[2016.06.04-08.59.20:657][870]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (2 blueprints)
+[2016.06.04-08.59.20:658][870]LogPlayLevel: [PlayLevel] Compiling RunnerMap before play...
+[2016.06.04-08.59.20:765][870]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (2 blueprints)
+[2016.06.04-08.59.20:807][870]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 12:59:20 PM)
+[2016.06.04-08.59.20:807][870]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-08.59.20:846][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038570s)
+[2016.06.04-08.59.20:847][870]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-08.59.20:847][870]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2016.06.04-08.59.20:848][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.040407s)
+[2016.06.04-08.59.20:891][870]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-08.59.20:898][870]LogInit: FAudioDevice initialized.
+[2016.06.04-08.59.20:981][870]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.59.20:982][870]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-08.59.20:982][870]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-08.59.20:982][870]LogWorld: Game class is 'GameMode'
+[2016.06.04-08.59.20:990][870]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-10.59.20
+[2016.06.04-08.59.20:990][870]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.59.20:991][870]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-08.59.20:991][870]LogWorld: Bringing up level for play took: 0.008357
+[2016.06.04-08.59.20:992][870]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-08.59.21:005][870]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.848
+[2016.06.04-08.59.21:006][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.59.54:329][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.59.54:412][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-08.59.54:541][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000256258168E0
+[2016.06.04-09.00.23:205][478]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-09.00.23:369][478]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-09.00.23:369][478]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.00.23:369][478]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-09.00.23:369][478]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.00.23:369][478]BlueprintEditorCompileResults: Info [1424.74] Compile of SpawnWalls_Blueprint successful! [in 163 ms]
+[2016.06.04-09.00.25:094][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.00.25:094][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.00.25:094][680]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:00:25 PM)
+[2016.06.04-09.00.25:094][680]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.00.25:133][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039384s)
+[2016.06.04-09.00.25:134][680]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.00.25:135][680]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2016.06.04-09.00.25:135][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.041037s)
+[2016.06.04-09.00.25:177][680]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.00.25:184][680]LogInit: FAudioDevice initialized.
+[2016.06.04-09.00.25:270][680]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.00.25:270][680]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.00.25:270][680]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.00.25:270][680]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.00.25:279][680]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.00.25
+[2016.06.04-09.00.25:279][680]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.00.25:279][680]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.00.25:280][680]LogWorld: Bringing up level for play took: 0.008234
+[2016.06.04-09.00.25:280][680]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.00.25:313][680]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 1.155
+[2016.06.04-09.00.25:313][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.00.49:933][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.00.50:031][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.00.50:086][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002561E027C40
+[2016.06.04-09.01.18:629][ 19]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-09.01.18:818][ 19]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-09.01.18:818][ 19]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.01.18:818][ 19]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-09.01.18:818][ 19]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.01.18:818][ 19]BlueprintEditorCompileResults: Info [1480.19] Compile of SpawnWalls_Blueprint successful! [in 189 ms]
+[2016.06.04-09.01.19:485][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.19:485][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.01.19:485][ 94]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:01:19 PM)
+[2016.06.04-09.01.19:485][ 94]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.01.19:518][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033190s)
+[2016.06.04-09.01.19:519][ 94]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.01.19:519][ 94]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2016.06.04-09.01.19:520][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.034645s)
+[2016.06.04-09.01.19:555][ 94]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.01.19:562][ 94]LogInit: FAudioDevice initialized.
+[2016.06.04-09.01.19:650][ 94]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.01.19:650][ 94]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.01.19:650][ 94]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.01.19:650][ 94]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.01.19:658][ 94]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.01.19
+[2016.06.04-09.01.19:658][ 94]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.01.19:658][ 94]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.01.19:659][ 94]LogWorld: Bringing up level for play took: 0.007885
+[2016.06.04-09.01.19:659][ 94]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.01.19:690][ 94]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.467
+[2016.06.04-09.01.19:690][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.27:063][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.27:139][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.27:174][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002565C293420
+[2016.06.04-09.01.41:460][131]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-09.01.41:614][131]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-09.01.41:614][131]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.01.41:614][131]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-09.01.41:614][131]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.01.41:614][131]BlueprintEditorCompileResults: Info [1502.99] Compile of SpawnWalls_Blueprint successful! [in 154 ms]
+[2016.06.04-09.01.42:756][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.42:756][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.01.42:756][262]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:01:42 PM)
+[2016.06.04-09.01.42:756][262]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.01.42:796][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039131s)
+[2016.06.04-09.01.42:797][262]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.01.42:797][262]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2016.06.04-09.01.42:797][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.040976s)
+[2016.06.04-09.01.42:835][262]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.01.42:842][262]LogInit: FAudioDevice initialized.
+[2016.06.04-09.01.42:917][262]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.01.42:917][262]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.01.42:917][262]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.01.42:917][262]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.01.42:925][262]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.01.42
+[2016.06.04-09.01.42:925][262]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.01.42:925][262]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.01.42:926][262]LogWorld: Bringing up level for play took: 0.007640
+[2016.06.04-09.01.42:926][262]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.01.42:957][262]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.799
+[2016.06.04-09.01.42:957][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.01.59:959][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.00:043][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.00:087][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002561DA0AF20
+[2016.06.04-09.02.10:847][239]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-09.02.11:050][239]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-09.02.11:050][239]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.02.11:050][239]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-09.02.11:050][239]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.02.11:050][239]BlueprintEditorCompileResults: Info [1532.42] Compile of SpawnWalls_Blueprint successful! [in 201 ms]
+[2016.06.04-09.02.11:851][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.11:851][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.02.11:851][331]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:02:11 PM)
+[2016.06.04-09.02.11:851][331]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.02.11:889][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037452s)
+[2016.06.04-09.02.11:890][331]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.02.11:891][331]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2016.06.04-09.02.11:891][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.039011s)
+[2016.06.04-09.02.11:930][331]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.02.11:935][331]LogInit: FAudioDevice initialized.
+[2016.06.04-09.02.12:010][331]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.02.12:011][331]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.02.12:011][331]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.02.12:011][331]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.02.12:020][331]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.02.12
+[2016.06.04-09.02.12:021][331]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.02.12:021][331]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.02.12:021][331]LogWorld: Bringing up level for play took: 0.009347
+[2016.06.04-09.02.12:022][331]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.02.12:060][331]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap -0.097
+[2016.06.04-09.02.12:060][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.50:778][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.50:872][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.02.50:935][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002565C13A5C0
+[2016.06.04-09.04.36:430][120]BlueprintLog: New page: Compile SpawnWalls_Blueprint
+[2016.06.04-09.04.36:564][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.04-09.04.36:607][120]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_139) had an invalid function signature - it has now been fixed.
+[2016.06.04-09.04.36:607][120]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.04.36:607][120]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.04-09.04.36:607][120]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2016.06.04-09.04.36:607][120]BlueprintEditorCompileResults: Info [1677.98] Compile of SpawnWalls_Blueprint successful! [in 176 ms]
+[2016.06.04-09.04.48:034][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3849 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_3849
+[2016.06.04-09.04.48:034][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_3849 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3849
+[2016.06.04-09.04.48:034][471]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_3849.EdGraphPin_47517) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_3848.EdGraphPin_47508).  Import failed...
+[2016.06.04-09.04.48:034][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3849.EdGraphPin_47517''
+[2016.06.04-09.04.48:034][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4909 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4909
+[2016.06.04-09.04.48:034][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4909 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_4909
+[2016.06.04-09.04.48:034][471]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4909.EdGraphPin_47524) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_3849.EdGraphPin_47518).  Import failed...
+[2016.06.04-09.04.48:034][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4909.EdGraphPin_47524''
+[2016.06.04-09.04.48:035][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_47541) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_4909.EdGraphPin_47527).  Import failed...
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4910.EdGraphPin_47541''
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4750.EdGraphPin_49576) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_4909.EdGraphPin_47526).  Import failed...
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4750.EdGraphPin_49576''
+[2016.06.04-09.04.48:035][471]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint.SpawnBox_Blueprint:EventGraph.K2Node_CallFunction_4910 or K2Node_CallFunction /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint.SpawnWalls_Blueprint:EventGraph.K2Node_CallFunction_4910.EdGraphPin_47539) from referencer (EdGraphPin /Game/RunnerAssets/Blueprints/Props/propFG.propFG:EventGraph.K2Node_CallFunction_4909.EdGraphPin_47525).  Import failed...
+[2016.06.04-09.04.48:035][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4910.EdGraphPin_47539''
+[2016.06.04-09.06.42:933][ 90]BlueprintLog: New page: Compile propFG
+[2016.06.04-09.06.42:951][ 90]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'prop_FG01' in BlueprintGeneratedClass 'REINST_propFG_1_C_366' (it may have been removed)
+[2016.06.04-09.06.43:001][ 90]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'prop_FG01' in BlueprintGeneratedClass 'REINST_propFG_2_C_370' (it may have been removed)
+[2016.06.04-09.06.43:001][ 90]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_propFG_2_C_370' (it may have been removed)
+[2016.06.04-09.06.43:001][ 90]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh1' in BlueprintGeneratedClass 'REINST_propFG_2_C_370' (it may have been removed)
+[2016.06.04-09.06.43:376][ 90]BlueprintEditorCompileResults: Info [1804.75] Compile of propFG successful! [in 442 ms]
+[2016.06.04-09.06.43:989][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.06.43:989][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.06.43:989][158]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:06:43 PM)
+[2016.06.04-09.06.43:989][158]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.06.44:032][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043116s)
+[2016.06.04-09.06.44:033][158]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.06.44:034][158]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2016.06.04-09.06.44:034][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.044963s)
+[2016.06.04-09.06.44:078][158]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.06.44:085][158]LogInit: FAudioDevice initialized.
+[2016.06.04-09.06.44:153][158]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.06.44:153][158]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.06.44:153][158]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.06.44:153][158]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.06.44:162][158]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.06.44
+[2016.06.04-09.06.44:162][158]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.06.44:163][158]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.06.44:163][158]LogWorld: Bringing up level for play took: 0.008941
+[2016.06.04-09.06.44:164][158]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.06.44:178][158]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.021
+[2016.06.04-09.06.44:179][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.07.07:542][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.07.07:626][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.07.07:675][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000256B9A347C0
+[2016.06.04-09.07.15:641][827]LogRenderer: Reallocating scene render targets to support 1280x800 (Frame:16325).
+[2016.06.04-09.08.06:376][500]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RunnerAssets/RunnerMap' took 0.036
+[2016.06.04-09.08.06:385][500]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint] ([1] browsable assets)...
+[2016.06.04-09.08.06:385][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint]
+[2016.06.04-09.08.06:746][500]LogSavePackage: Save=339.749481ms
+[2016.06.04-09.08.06:746][500]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/SpawnBox_Blueprint_Auto2ADD1728D488D7C51E3D32B9582EB682F.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint_Auto2.uasset'
+[2016.06.04-09.08.06:748][500]LogSavePackage: Total save time: 361.842629ms
+[2016.06.04-09.08.06:748][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnBox_Blueprint_Auto2.uasset
+[2016.06.04-09.08.06:754][500]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Props/propFG] ([1] browsable assets)...
+[2016.06.04-09.08.06:754][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Props/propFG]
+[2016.06.04-09.08.06:787][500]LogSavePackage: Save=21.507847ms
+[2016.06.04-09.08.06:788][500]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/propFG_Auto29038695D4F1D448FCBBD489719D00C95.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Props/propFG_Auto2.uasset'
+[2016.06.04-09.08.06:789][500]LogSavePackage: Total save time: 33.748280ms
+[2016.06.04-09.08.06:789][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Props/propFG_Auto2.uasset
+[2016.06.04-09.08.06:795][500]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint] ([1] browsable assets)...
+[2016.06.04-09.08.06:795][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint]
+[2016.06.04-09.08.07:088][500]LogSavePackage: Save=279.357788ms
+[2016.06.04-09.08.07:088][500]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/SpawnWalls_Blueprint_Auto2F116B645412711FD3D76F7868271470C.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint_Auto2.uasset'
+[2016.06.04-09.08.07:090][500]LogSavePackage: Total save time: 292.892005ms
+[2016.06.04-09.08.07:090][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/Autosaves/Game/RunnerAssets/Blueprints/Spawners/SpawnWalls_Blueprint_Auto2.uasset
+[2016.06.04-09.08.07:090][500]LogFileHelpers: Auto-saving content packages took 0.713
+[2016.06.04-09.10.54:344][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RunnerAssets/Blueprints/Props/propFG_1" FILE="../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Props/propFG_1.uasset" SILENT=true
+[2016.06.04-09.10.54:381][532]LogSavePackage: Save=23.241430ms
+[2016.06.04-09.10.54:381][532]LogSavePackage: Moving '../../../../../../Users/Johan/Documents/GitHub/Runner/Saved/propFG_1D316E16145ED9A9CA8F7FF91666272B6.tmp' to '../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Props/propFG_1.uasset'
+[2016.06.04-09.10.54:384][532]LogSavePackage: Total save time: 38.669508ms
+[2016.06.04-09.10.54:384][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Johan/Documents/GitHub/Runner/Content/RunnerAssets/Blueprints/Props/propFG_1.uasset
+[2016.06.04-09.10.54:878][582]BlueprintLog: New page: Compile propFG_1
+[2016.06.04-09.10.54:975][582]BlueprintEditorCompileResults: Info [2056.35] Compile of propFG_1 successful! [in 96 ms]
+[2016.06.04-09.10.56:047][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.10.56:047][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.04-09.10.56:048][682]PIE: New page: PIE session: RunnerMap (Jun 4, 2016, 1:10:56 PM)
+[2016.06.04-09.10.56:048][682]LogPlayLevel: Creating play world package: /Game/RunnerAssets/UEDPIE_0_RunnerMap
+[2016.06.04-09.10.56:086][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038731s)
+[2016.06.04-09.10.56:087][682]LogAIModule: Creating AISystem for world RunnerMap
+[2016.06.04-09.10.56:088][682]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2016.06.04-09.10.56:088][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RunnerAssets/RunnerMap.RunnerMap to /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap (0.040388s)
+[2016.06.04-09.10.56:128][682]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.04-09.10.56:135][682]LogInit: FAudioDevice initialized.
+[2016.06.04-09.10.56:216][682]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.10.56:216][682]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerGameMode'
+[2016.06.04-09.10.56:216][682]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/Blueprints/SideScrollerGameMode.SideScrollerGameMode_C'
+[2016.06.04-09.10.56:216][682]LogWorld: Game class is 'GameMode'
+[2016.06.04-09.10.56:230][682]LogWorld: Bringing World /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap up for play (max tick rate 0) at 2016.06.04-11.10.56
+[2016.06.04-09.10.56:230][682]LogActor:Warning: GameSession /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.10.56:230][682]LogActor:Warning: GameNetworkManager /Game/RunnerAssets/UEDPIE_0_RunnerMap.RunnerMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.06.04-09.10.56:231][682]LogWorld: Bringing up level for play took: 0.013792
+[2016.06.04-09.10.56:233][682]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.04-09.10.56:254][682]PIE: Info Play in editor start time for /Game/RunnerAssets/UEDPIE_0_RunnerMap 0.097
+[2016.06.04-09.10.56:254][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel' has LevelScriptBlueprint '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap' with GeneratedClass '/Game/RunnerAssets/RunnerMap.RunnerMap_C' with ClassGeneratedBy '/Game/RunnerAssets/RunnerMap.RunnerMap:PersistentLevel.RunnerMap'
+[2016.06.04-09.11.13:742][229]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.14:242][229]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.14:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.15:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.15:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.16:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.16:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.17:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.17:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.18:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.18:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.19:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.19:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.20:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.20:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.21:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.21:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.22:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.22:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.23:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.23:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.24:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.24:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.25:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.25:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.26:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.26:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.27:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.27:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.28:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.28:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.29:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.29:744][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.30:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.30:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.31:244][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.31:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.32:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.32:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.33:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.33:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.34:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.34:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.35:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.35:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.36:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.36:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.37:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.37:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.38:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.38:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.39:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.39:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.40:246][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.40:746][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.41:245][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.41:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.42:246][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.42:745][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.43:246][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.06.04-09.11.43:746][230]LogD3D11RHI: Timed out while waiting for GPU to cat
